@@ -36,13 +36,56 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             apiApplication -> database "stores and retrieves data in" "JPA"
         }
 
-        oAuthServer = softwareSystem "Keycloak OAuth Server" {
+        oAuthServer = softwareSystem "Keycloak" {
             description "OAuth2 and OpenId Connect compliant server"
             tags "Keycloak"
 
             singlePageApplication -> this "requests OAuth token" "HTTPS"
             mobileApplication -> this "requests OAuth token" "HTTPS"
             apiApplication -> this "verifies OAuth token" "HTTPS"
+        }
+
+        elasticSearch = softwareSystem "ElasticSearch" {
+            description "Distributed JSON-based search and analytics engine."
+            tags "ElasticSearch"
+        }
+
+        fluentd = softwareSystem "Fluentd" {
+            description "Open source data collector for unified logging layer."
+            tags "Fluentd"
+
+            this -> storeMan "collect logs from" "File System"
+            this -> elasticSearch "persists logs to"
+        }
+
+        kibana = softwareSystem "Kibana" {
+            description "Visualization and data analysis of log data"
+            tags "Kibana"
+
+            this -> elasticSearch "visualize logs from"
+        }
+
+        prometheus = softwareSystem "Prometheus" {
+            description "Scraping and storage of metrics data"
+            tags "Prometheus"
+
+            this -> storeMan "pull metrics data from" "HTTPS"
+            this -> webApplication "pull metrics data from" "HTTPS"
+            this -> apiApplication "pull metrics data from" "HTTPS"
+        }
+
+        grafana = softwareSystem "Grafana" {
+            description "Visualization of metrics data"
+            tags "Grafana"
+
+            this -> prometheus "visualize metrics data from"
+        }
+
+        kafka = softwareSystem "Kafka" {
+            description "Distributed event streaming platform"
+            tags "Kafka"
+
+            apiApplication -> this "publish and subscribe to topics on" "Avro/tcp"
         }
 
         # People
@@ -62,7 +105,7 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
 
     views {
         systemContext storeMan "Context" {
-            include * systemAdministrator
+            include * systemAdministrator fluentd elasticSearch kibana prometheus grafana
         }
 
         container storeMan "ContainerStoreMan" {
@@ -109,6 +152,48 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                 background "#dddddd"
                 color "#336892"
                 icon "images/postgresql.png"
+            }
+            element "Fluentd" {
+                stroke "#000000"
+                strokeWidth 10
+                background "#dddddd"
+                color "#000000"
+                icon "images/fluentd.png"
+            }
+            element "ElasticSearch" {
+                stroke "#000000"
+                strokeWidth 10
+                background "#dddddd"
+                color "#000000"
+                icon "images/elasticsearch.png"
+            }
+            element "Kibana" {
+                stroke "#000000"
+                strokeWidth 10
+                background "#dddddd"
+                color "#000000"
+                icon "images/kibana.png"
+            }
+            element "Prometheus" {
+                stroke "#000000"
+                strokeWidth 10
+                background "#dddddd"
+                color "#000000"
+                icon "images/prometheus.png"
+            }
+            element "Grafana" {
+                stroke "#000000"
+                strokeWidth 10
+                background "#dddddd"
+                color "#000000"
+                icon "images/grafana.png"
+            }
+            element "Kafka" {
+                stroke "#000000"
+                strokeWidth 10
+                background "#dddddd"
+                color "#000000"
+                icon "images/kafka.png"
             }
         }
 
