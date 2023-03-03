@@ -16,3 +16,24 @@ When the organisation has no further use for the item, it needs to be disposed. 
 StoreMan can be used in a wide array of environments ranging from simple examples like an informal library to complex environments like a Police crime scene exhibit store.
 
 ![System Context](embed:Context)
+
+### People
+#### User
+A user refers to any registered user of the StoreMan system, which interacts with the system using either the
+Single-Page Web Application or the Mobile Application.
+
+Users can have multiple roles that filters the actions that users can perform on the system. These roles include:
+- **Storage Location Administrator** - Manages storage locations and assigns them to Storage Officials.
+- **Registration Official** - Registers new property items in the system.
+- **Storage Official** - Stores property items in storage locations and hands over property items from a storage location.
+- **Requestor** - Creates requests for property items to use property item for a purpose.
+- **Request Approver** - Approves or declines requests for property items.
+
+#### System Administrator
+Manages users and other configurations of the system.
+
+### Software Systems
+#### StoreMan
+StoreMan refers to the system under discussion in this document.
+#### Keycloak
+Keycloak has been selected as the OAuth2 and OpenId connect compliant single sign-on aouthorization server.

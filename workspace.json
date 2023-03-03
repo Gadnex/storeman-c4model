@@ -2,14 +2,15 @@
   "id" : 1,
   "name" : "StoreMan",
   "description" : "C4 Model of the StoreMan system",
-  "lastModifiedDate" : "2023-03-02T18:06:34Z",
+  "lastModifiedDate" : "2023-03-03T13:21:22Z",
+  "lastModifiedAgent" : "structurizr-javascript",
   "properties" : {
-    "structurizr.dsl" : "d29ya3NwYWNlICJTdG9yZU1hbiIgIkM0IE1vZGVsIG9mIHRoZSBTdG9yZU1hbiBzeXN0ZW0iIHsKCiAgICBtb2RlbCB7CiAgICAgICAgc3RvcmVNYW4gPSBzb2Z0d2FyZVN5c3RlbSAiU3RvcmVNYW4iICJSZWdpc3RyYXRpb24gYW5kIHN0b3JhZ2Ugb2YgcHJvcGVydHkgaXRlbXMgaW4gb3JkZXIgdG8ga2VlcCB0cmFjayBvZiBpdGVtIGxvY2F0aW9ucy4iIHsKICAgICAgICAgICAgIWRvY3MgZG9jcwoKICAgICAgICAgICAgd2ViQXBwbGljYXRpb24gPSBjb250YWluZXIgIldlYiBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkRlbGl2ZXJzIHN0YXRpYyBjb250ZW50IGFuZCB0aGUgU3RvcmVNYW4gc2luZ2xlIHBhZ2UgYXBwbGljYXRpb24uIgogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiU3ByaW5nIEJvb3QiCiAgICAgICAgICAgICAgICB0YWdzICJTcHJpbmcgQm9vdCIKICAgICAgICAgICAgfQogICAgICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNpbmdsZS1QYWdlIEFwcGxpY2F0aW9uIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiUHJvdmlkZXMgYWxsIG9mIHRoZSBTdG9yZU1hbiBmdW5jdGlvbmFsaXR5IHZpYSB0aGUgd2ViIGJyb3dzZXIuIgogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiQW5ndWxhciIKICAgICAgICAgICAgICAgIHRhZ3MgIkFuZ3VsYXIiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgbW9iaWxlQXBwbGljYXRpb24gPSBjb250YWluZXIgIk1vYmlsZSBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlByb3ZpZGVzIGEgbGltaXRlZCBzdWJzZXQgb2YgdGhlIFN0b3JlTWFuIGZ1bmN0aW9uYWxpdHkgdmlhIGFuIEFuZHJvaWQgb3IgaU9TIG1vYmlsZSBkZXZpY2UuIgogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiUmVhY3QgTmF0aXZlIgogICAgICAgICAgICAgICAgdGFncyAiUmVhY3QgTmF0aXZlIgogICAgICAgICAgICB9CiAgICAgICAgICAgIG9BdXRoU2VydmVyID0gY29udGFpbmVyICJPQXV0aCBTZXJ2ZXIiIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICIiCiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJLZXljbG9hayIKICAgICAgICAgICAgICAgIHRhZ3MgIktleWNsb2FrIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGFwaUFwcGxpY2F0aW9uID0gY29udGFpbmVyICJBUEkgQXBwbGljYXRpb24iIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICAiUHJvdmlkZXMgdGhlIFN0b3JlTWFuIGZ1bmN0aW9uYWxpdHkgdmlhIGEgSlNPTi9IVFRQUyBBUEkiCiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJTcHJpbmcgQm9vdCIKICAgICAgICAgICAgICAgIHRhZ3MgIlNwcmluZyBCb290IgogICAgICAgICAgICB9CiAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlN0b3JlcyBhbGwgb2YgdGhlIFN0b3JlTWFuIGRhdGEiCiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJQb3N0Z3Jlc3MiCiAgICAgICAgICAgICAgICB0YWdzICJQb3N0Z3Jlc3MiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHdlYkFwcGxpY2F0aW9uIC0+IHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAiZGVsaXZlcnMgdG8gdGhlIHVzZXIncyB3ZWIgYnJvd3NlciIKICAgICAgICAgICAgc2luZ2xlUGFnZUFwcGxpY2F0aW9uIC0+IGFwaUFwcGxpY2F0aW9uICJtYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gLT4gb0F1dGhTZXJ2ZXIgInJlcXVlc3RzIE9BdXRoIHRva2VuIgogICAgICAgICAgICBtb2JpbGVBcHBsaWNhdGlvbiAtPiBhcGlBcHBsaWNhdGlvbiAibWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICAgICAgbW9iaWxlQXBwbGljYXRpb24gLT4gb0F1dGhTZXJ2ZXIgInJlcXVlc3RzIE9BdXRoIHRva2VuIgogICAgICAgICAgICBhcGlBcHBsaWNhdGlvbiAtPiBvQXV0aFNlcnZlciAidmVyaWZpZXMgT0F1dGggdG9rZW4iICJIVFRQUyIKICAgICAgICAgICAgYXBpQXBwbGljYXRpb24gLT4gZGF0YWJhc2UgInN0b3JlcyBhbmQgcmV0cmlldmVzIGRhdGEgaW4iICJKUEEiCiAgICAgICAgfQoKICAgICAgICAjIFBlb3BsZQogICAgICAgIHVzZXIgPSBwZXJzb24gIlVzZXIiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIkEgcmVnaXN0ZXJlZCB1c2VyIG9mIHRoZSBzeXN0ZW0iCiAgICAgICAgICAgIHRoaXMgLT4gd2ViQXBwbGljYXRpb24gInZpc2l0cyBzdG9yZW1hbi5uZXQgdXNpbmciICJIVFRQUyIKICAgICAgICAgICAgdGhpcyAtPiBzaW5nbGVQYWdlQXBwbGljYXRpb24gImludGVyYWN0cyB3aXRoIHVzZXIgaW50ZXJmYWNlIgogICAgICAgICAgICB0aGlzIC0+IG1vYmlsZUFwcGxpY2F0aW9uICJpbnRlcmFjdHMgd2l0aCB1c2VyIGludGVyZmFjZSIKICAgICAgICAgICAgdGhpcyAtPiBvQXV0aFNlcnZlciAicHJvdmlkZXMgYXV0aGVudGljYXRpb24gY3JlZGVudGlhbHMgdG8iICJPQXV0aC9IVFRQUyIKICAgICAgICB9CiAgICAgICAgc3lzdGVtQWRtaW5pc3RyYXRvciA9IHBlcnNvbiAiU3lzdGVtIEFkbWluaXN0cmF0b3IiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIk1hbmFnZXMgdXNlcnMgYW5kIG90aGVyIGNvbmZpZ3VyYXRpb25zIG9mIHRoZSBzeXN0ZW0uIgogICAgICAgICAgICB0aGlzIC0+IHN0b3JlTWFuICJtYW5hZ2VzIHVzZXJzIGFuZCBjb25maWd1cmF0aW9ucyBpbiIKICAgICAgICB9CiAgICAgICAgcmVnaXN0cmF0aW9uT2ZmaWNpYWwgPSBwZXJzb24gIlJlZ2lzdHJhdGlvbiBPZmZpY2lhbCIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAiUmVnaXN0ZXJzIG5ldyBwcm9wZXJ0eSBpdGVtcyBpbiB0aGUgc3lzdGVtLiIKICAgICAgICAgICAgdGhpcyAtPiBzdG9yZU1hbiAicmVnaXN0ZXJzIHByb3BlcnR5IGl0ZW1zIGluIgogICAgICAgIH0KICAgICAgICBzdG9yYWdlT2ZmaWNpYWwgPSBwZXJzb24gIlN0b3JhZ2UgT2ZmaWNpYWwiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIlN0b3JlcyBwcm9wZXJ0eSBpdGVtcyBpbiBzdG9yYWdlIGxvY2F0aW9ucyBhbmQgaGFuZHMgb3ZlciBwcm9wZXJ0eSBpdGVtcyBmcm9tIGEgc3RvcmFnZSBsb2NhdGlvbi4iCiAgICAgICAgICAgIHRoaXMgLT4gc3RvcmVNYW4gInN0b3JlcyBhbmQgaGFuZHMgb3ZlciBwcm9wZXJ0eSBpdGVtcyBpbiIKICAgICAgICB9CiAgICAgICAgc3RvcmFnZUxvY2F0aW9uQWRtaW5pc3RyYXRvciA9IHBlcnNvbiAiU3RvcmFnZSBMb2NhdGlvbiBBZG1pbmlzdHJhdG9yIiB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJNYW5hZ2VzIHN0b3JhZ2UgbG9jYXRpb25zIGFuZCBhc3NpZ25zIHRoZW0gdG8gU3RvcmFnZSBPZmZpY2lhbHMiCiAgICAgICAgICAgIHRoaXMgLT4gc3RvcmVNYW4gIm1hbmFnZXMgc3RvcmFnZSBsb2NhdGlvbnMgaW4iCiAgICAgICAgfQogICAgICAgIHJlcXVlc3RvciA9IHBlcnNvbiAiUmVxdWVzdG9yIiB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJDcmVhdGVzIHJlcXVlc3RzIGZvciBwcm9wZXJ0eSBpdGVtcyB0byB1c2UgcHJvcGVydHkgaXRlbSBmb3IgYSBwdXJwb3NlIgogICAgICAgICAgICB0aGlzIC0+IHN0b3JlTWFuICJyZXF1ZXN0cyBhbmQgcmVjZWl2ZXMgcHJvcGVydHkgaXRlbXMgaW4iCiAgICAgICAgfQogICAgICAgIHJlcXVlc3RBcHByb3ZlciA9IHBlcnNvbiAiUmVxdWVzdCBBcHByb3ZlciIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAiQXBwcm92ZXMgb3IgZGVjbGluZXMgcmVxdWVzdHMgZm9yIHByb3BlcnR5IGl0ZW1zIgogICAgICAgICAgICB0aGlzIC0+IHN0b3JlTWFuICJhcHByb3ZlcyByZXF1ZXN0cyBpbiIKICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgc3RvcmVNYW4gIkNvbnRleHQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgICAgIGV4Y2x1ZGUgIlVzZXIiCiAgICAgICAgfQoKICAgICAgICBjb250YWluZXIgc3RvcmVNYW4gIkNvbnRhaW5lclN0b3JlTWFuIiB7CiAgICAgICAgICAgIGluY2x1ZGUgKgogICAgICAgIH0KCiAgICAgICAgYnJhbmRpbmcgewogICAgICAgICAgICBsb2dvICJpbWFnZXMvd2FyZWhvdXNlLnBuZyIKICAgICAgICB9CgogICAgICAgIHN0eWxlcyB7CiAgICAgICAgICAgIGVsZW1lbnQgIlNwcmluZyBCb290IiB7CiAgICAgICAgICAgICAgICBzdHJva2UgIiM3N2JjMWYiCiAgICAgICAgICAgICAgICBzdHJva2VXaWR0aCAxMAogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAiI2RkZGRkZCIKICAgICAgICAgICAgICAgIGNvbG9yICIjNzdiYzFmIgogICAgICAgICAgICAgICAgaWNvbiAiaW1hZ2VzL3NwcmluZy5wbmciCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiS2V5Y2xvYWsiIHsKICAgICAgICAgICAgICAgIHN0cm9rZSAiIzRkNGQ0ZCIKICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoIDEwCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICIjZGRkZGRkIgogICAgICAgICAgICAgICAgY29sb3IgIiM0ZDRkNGQiCiAgICAgICAgICAgICAgICBpY29uICJpbWFnZXMva2V5Y2xvYWsyLnBuZyIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJBbmd1bGFyIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBXZWJCcm93c2VyCiAgICAgICAgICAgICAgICBzdHJva2UgIiNjMzAwMmYiCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICIjZGRkZGRkIgogICAgICAgICAgICAgICAgY29sb3IgIiNjMzAwMmYiCiAgICAgICAgICAgICAgICBpY29uICJpbWFnZXMvYW5ndWxhci5wbmciCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUmVhY3QgTmF0aXZlIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBNb2JpbGVEZXZpY2VMYW5kc2NhcGUKICAgICAgICAgICAgICAgIHN0cm9rZSAiIzAwZDhmZiIKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIiNkZGRkZGQiCiAgICAgICAgICAgICAgICBjb2xvciAiIzAwZDhmZiIKICAgICAgICAgICAgICAgIGljb24gImltYWdlcy9yZWFjdF9uYXRpdmUucG5nIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIlBvc3RncmVzcyIgewogICAgICAgICAgICAgICAgc2hhcGUgQ3lsaW5kZXIKICAgICAgICAgICAgICAgIHN0cm9rZSAiIzMzNjg5MiIKICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoIDEwCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICIjZGRkZGRkIgogICAgICAgICAgICAgICAgY29sb3IgIiMzMzY4OTIiCiAgICAgICAgICAgICAgICBpY29uICJpbWFnZXMvcG9zdGdyZXNxbC5wbmciCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHRoZW1lIGRlZmF1bHQKICAgIH0KCn0K"
+    "structurizr.dsl" : "d29ya3NwYWNlICJTdG9yZU1hbiIgIkM0IE1vZGVsIG9mIHRoZSBTdG9yZU1hbiBzeXN0ZW0iIHsKCiAgICBtb2RlbCB7CiAgICAgICAgc3RvcmVNYW4gPSBzb2Z0d2FyZVN5c3RlbSAiU3RvcmVNYW4iICJSZWdpc3RyYXRpb24gYW5kIHN0b3JhZ2Ugb2YgcHJvcGVydHkgaXRlbXMgaW4gb3JkZXIgdG8ga2VlcCB0cmFjayBvZiBpdGVtIGxvY2F0aW9ucy4iIHsKICAgICAgICAgICAgIWRvY3MgZG9jcwoKICAgICAgICAgICAgd2ViQXBwbGljYXRpb24gPSBjb250YWluZXIgIldlYiBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkRlbGl2ZXJzIHN0YXRpYyBjb250ZW50IGFuZCB0aGUgU3RvcmVNYW4gc2luZ2xlIHBhZ2UgYXBwbGljYXRpb24uIgogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiU3ByaW5nIEJvb3QiCiAgICAgICAgICAgICAgICB0YWdzICJTcHJpbmcgQm9vdCIKICAgICAgICAgICAgfQogICAgICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gPSBjb250YWluZXIgIlNpbmdsZS1QYWdlIEFwcGxpY2F0aW9uIiB7CiAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiUHJvdmlkZXMgYWxsIG9mIHRoZSBTdG9yZU1hbiBmdW5jdGlvbmFsaXR5IHZpYSB0aGUgd2ViIGJyb3dzZXIuIgogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiQW5ndWxhciIKICAgICAgICAgICAgICAgIHRhZ3MgIkFuZ3VsYXIiCiAgICAgICAgICAgIH0KICAgICAgICAgICAgbW9iaWxlQXBwbGljYXRpb24gPSBjb250YWluZXIgIk1vYmlsZSBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlByb3ZpZGVzIGEgbGltaXRlZCBzdWJzZXQgb2YgdGhlIFN0b3JlTWFuIGZ1bmN0aW9uYWxpdHkgdmlhIGFuIEFuZHJvaWQgb3IgaU9TIG1vYmlsZSBkZXZpY2UuIgogICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiUmVhY3QgTmF0aXZlIgogICAgICAgICAgICAgICAgdGFncyAiUmVhY3QgTmF0aXZlIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGFwaUFwcGxpY2F0aW9uID0gY29udGFpbmVyICJBUEkgQXBwbGljYXRpb24iIHsKICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICAiUHJvdmlkZXMgdGhlIFN0b3JlTWFuIGZ1bmN0aW9uYWxpdHkgdmlhIGEgSlNPTi9IVFRQUyBBUEkiCiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJTcHJpbmcgQm9vdCIKICAgICAgICAgICAgICAgIHRhZ3MgIlNwcmluZyBCb290IgogICAgICAgICAgICB9CiAgICAgICAgICAgIGRhdGFiYXNlID0gY29udGFpbmVyICJEYXRhYmFzZSIgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlN0b3JlcyBhbGwgb2YgdGhlIFN0b3JlTWFuIGRhdGEiCiAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJQb3N0Z3Jlc3MiCiAgICAgICAgICAgICAgICB0YWdzICJQb3N0Z3Jlc3MiCiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIHdlYkFwcGxpY2F0aW9uIC0+IHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAiZGVsaXZlcnMgdG8gdGhlIHVzZXIncyB3ZWIgYnJvd3NlciIKICAgICAgICAgICAgc2luZ2xlUGFnZUFwcGxpY2F0aW9uIC0+IGFwaUFwcGxpY2F0aW9uICJtYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgICAgICBtb2JpbGVBcHBsaWNhdGlvbiAtPiBhcGlBcHBsaWNhdGlvbiAibWFrZXMgQVBJIGNhbGxzIHRvIiAiSlNPTi9IVFRQUyIKICAgICAgICAgICAgYXBpQXBwbGljYXRpb24gLT4gZGF0YWJhc2UgInN0b3JlcyBhbmQgcmV0cmlldmVzIGRhdGEgaW4iICJKUEEiCiAgICAgICAgfQoKICAgICAgICBvQXV0aFNlcnZlciA9IHNvZnR3YXJlU3lzdGVtICJLZXljbG9hayBPQXV0aCBTZXJ2ZXIiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIk9BdXRoMiBhbmQgT3BlbklkIENvbm5lY3QgY29tcGxpYW50IHNlcnZlciIKICAgICAgICAgICAgdGFncyAiS2V5Y2xvYWsiCgogICAgICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gLT4gdGhpcyAicmVxdWVzdHMgT0F1dGggdG9rZW4iICJIVFRQUyIKICAgICAgICAgICAgbW9iaWxlQXBwbGljYXRpb24gLT4gdGhpcyAicmVxdWVzdHMgT0F1dGggdG9rZW4iICJIVFRQUyIKICAgICAgICAgICAgYXBpQXBwbGljYXRpb24gLT4gdGhpcyAidmVyaWZpZXMgT0F1dGggdG9rZW4iICJIVFRQUyIKICAgICAgICB9CgogICAgICAgICMgUGVvcGxlCiAgICAgICAgdXNlciA9IHBlcnNvbiAiVXNlciIgewogICAgICAgICAgICBkZXNjcmlwdGlvbiAiQSByZWdpc3RlcmVkIHVzZXIgb2YgdGhlIHN5c3RlbSIKICAgICAgICAgICAgdGhpcyAtPiBzdG9yZU1hbiAidXNlcyIKICAgICAgICAgICAgdGhpcyAtPiB3ZWJBcHBsaWNhdGlvbiAibmF2aWdhdGUgd2ViIGJyb3dzZXIgdG8iICJIVFRQUyIKICAgICAgICAgICAgdGhpcyAtPiBzaW5nbGVQYWdlQXBwbGljYXRpb24gImludGVyYWN0cyB3aXRoIHVzZXIgaW50ZXJmYWNlIgogICAgICAgICAgICB0aGlzIC0+IG1vYmlsZUFwcGxpY2F0aW9uICJpbnRlcmFjdHMgd2l0aCB1c2VyIGludGVyZmFjZSIKICAgICAgICAgICAgdGhpcyAtPiBvQXV0aFNlcnZlciAicHJvdmlkZXMgYXV0aGVudGljYXRpb24gY3JlZGVudGlhbHMgdG8iICJPQXV0aC9IVFRQUyIKICAgICAgICB9CiAgICAgICAgc3lzdGVtQWRtaW5pc3RyYXRvciA9IHBlcnNvbiAiU3lzdGVtIEFkbWluaXN0cmF0b3IiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIk1hbmFnZXMgdXNlcnMgYW5kIG90aGVyIGNvbmZpZ3VyYXRpb25zIG9mIHRoZSBzeXN0ZW0uIgogICAgICAgICAgICB0aGlzIC0+IG9BdXRoU2VydmVyICJtYW5hZ2VzIHVzZXJzIGFuZCBjb25maWd1cmF0aW9ucyBpbiIKICAgICAgICB9CiAgICB9CgogICAgdmlld3MgewogICAgICAgIHN5c3RlbUNvbnRleHQgc3RvcmVNYW4gIkNvbnRleHQiIHsKICAgICAgICAgICAgaW5jbHVkZSAqIHN5c3RlbUFkbWluaXN0cmF0b3IKICAgICAgICB9CgogICAgICAgIGNvbnRhaW5lciBzdG9yZU1hbiAiQ29udGFpbmVyU3RvcmVNYW4iIHsKICAgICAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgfQoKICAgICAgICBicmFuZGluZyB7CiAgICAgICAgICAgIGxvZ28gImltYWdlcy93YXJlaG91c2UucG5nIgogICAgICAgIH0KCiAgICAgICAgc3R5bGVzIHsKICAgICAgICAgICAgZWxlbWVudCAiU3ByaW5nIEJvb3QiIHsKICAgICAgICAgICAgICAgIHN0cm9rZSAiIzc3YmMxZiIKICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoIDEwCiAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kICIjZGRkZGRkIgogICAgICAgICAgICAgICAgY29sb3IgIiM3N2JjMWYiCiAgICAgICAgICAgICAgICBpY29uICJpbWFnZXMvc3ByaW5nLnBuZyIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJLZXljbG9hayIgewogICAgICAgICAgICAgICAgc3Ryb2tlICIjNGQ0ZDRkIgogICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIiNkZGRkZGQiCiAgICAgICAgICAgICAgICBjb2xvciAiIzRkNGQ0ZCIKICAgICAgICAgICAgICAgIGljb24gImltYWdlcy9rZXljbG9hazIucG5nIgogICAgICAgICAgICB9CiAgICAgICAgICAgIGVsZW1lbnQgIkFuZ3VsYXIiIHsKICAgICAgICAgICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICAgICAgICAgIHN0cm9rZSAiI2MzMDAyZiIKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIiNkZGRkZGQiCiAgICAgICAgICAgICAgICBjb2xvciAiI2MzMDAyZiIKICAgICAgICAgICAgICAgIGljb24gImltYWdlcy9hbmd1bGFyLnBuZyIKICAgICAgICAgICAgfQogICAgICAgICAgICBlbGVtZW50ICJSZWFjdCBOYXRpdmUiIHsKICAgICAgICAgICAgICAgIHNoYXBlIE1vYmlsZURldmljZUxhbmRzY2FwZQogICAgICAgICAgICAgICAgc3Ryb2tlICIjMDBkOGZmIgogICAgICAgICAgICAgICAgYmFja2dyb3VuZCAiI2RkZGRkZCIKICAgICAgICAgICAgICAgIGNvbG9yICIjMDBkOGZmIgogICAgICAgICAgICAgICAgaWNvbiAiaW1hZ2VzL3JlYWN0X25hdGl2ZS5wbmciCiAgICAgICAgICAgIH0KICAgICAgICAgICAgZWxlbWVudCAiUG9zdGdyZXNzIiB7CiAgICAgICAgICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgICAgICAgICAgc3Ryb2tlICIjMzM2ODkyIgogICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICAgICAgICAgIGJhY2tncm91bmQgIiNkZGRkZGQiCiAgICAgICAgICAgICAgICBjb2xvciAiIzMzNjg5MiIKICAgICAgICAgICAgICAgIGljb24gImltYWdlcy9wb3N0Z3Jlc3FsLnBuZyIKICAgICAgICAgICAgfQogICAgICAgIH0KCiAgICAgICAgdGhlbWUgZGVmYXVsdAogICAgfQoKfQo="
   },
   "configuration" : { },
   "model" : {
     "people" : [ {
-      "id" : "15",
+      "id" : "16",
       "tags" : "Element,Person",
       "properties" : {
         "structurizr.dsl.identifier" : "user"
@@ -17,42 +18,41 @@
       "name" : "User",
       "description" : "A registered user of the system",
       "relationships" : [ {
-        "id" : "16",
+        "id" : "21",
         "tags" : "Relationship",
-        "sourceId" : "15",
-        "destinationId" : "2",
-        "description" : "visits storeman.net using",
-        "technology" : "HTTPS"
-      }, {
-        "id" : "17",
-        "sourceId" : "15",
-        "destinationId" : "1",
-        "description" : "visits storeman.net using",
-        "technology" : "HTTPS",
-        "linkedRelationshipId" : "16"
-      }, {
-        "id" : "18",
-        "tags" : "Relationship",
-        "sourceId" : "15",
-        "destinationId" : "3",
-        "description" : "interacts with user interface"
-      }, {
-        "id" : "19",
-        "tags" : "Relationship",
-        "sourceId" : "15",
-        "destinationId" : "4",
-        "description" : "interacts with user interface"
+        "sourceId" : "16",
+        "destinationId" : "11",
+        "description" : "provides authentication credentials to",
+        "technology" : "OAuth/HTTPS"
       }, {
         "id" : "20",
         "tags" : "Relationship",
-        "sourceId" : "15",
-        "destinationId" : "5",
-        "description" : "provides authentication credentials to",
-        "technology" : "OAuth/HTTPS"
+        "sourceId" : "16",
+        "destinationId" : "4",
+        "description" : "interacts with user interface"
+      }, {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "16",
+        "destinationId" : "2",
+        "description" : "navigate web browser to",
+        "technology" : "HTTPS"
+      }, {
+        "id" : "19",
+        "tags" : "Relationship",
+        "sourceId" : "16",
+        "destinationId" : "3",
+        "description" : "interacts with user interface"
+      }, {
+        "id" : "17",
+        "tags" : "Relationship",
+        "sourceId" : "16",
+        "destinationId" : "1",
+        "description" : "uses"
       } ],
       "location" : "Unspecified"
     }, {
-      "id" : "21",
+      "id" : "22",
       "tags" : "Element,Person",
       "properties" : {
         "structurizr.dsl.identifier" : "systemadministrator"
@@ -60,95 +60,25 @@
       "name" : "System Administrator",
       "description" : "Manages users and other configurations of the system.",
       "relationships" : [ {
-        "id" : "22",
+        "id" : "23",
         "tags" : "Relationship",
-        "sourceId" : "21",
-        "destinationId" : "1",
+        "sourceId" : "22",
+        "destinationId" : "11",
         "description" : "manages users and configurations in"
-      } ],
-      "location" : "Unspecified"
-    }, {
-      "id" : "23",
-      "tags" : "Element,Person",
-      "properties" : {
-        "structurizr.dsl.identifier" : "registrationofficial"
-      },
-      "name" : "Registration Official",
-      "description" : "Registers new property items in the system.",
-      "relationships" : [ {
-        "id" : "24",
-        "tags" : "Relationship",
-        "sourceId" : "23",
-        "destinationId" : "1",
-        "description" : "registers property items in"
-      } ],
-      "location" : "Unspecified"
-    }, {
-      "id" : "25",
-      "tags" : "Element,Person",
-      "properties" : {
-        "structurizr.dsl.identifier" : "storageofficial"
-      },
-      "name" : "Storage Official",
-      "description" : "Stores property items in storage locations and hands over property items from a storage location.",
-      "relationships" : [ {
-        "id" : "26",
-        "tags" : "Relationship",
-        "sourceId" : "25",
-        "destinationId" : "1",
-        "description" : "stores and hands over property items in"
-      } ],
-      "location" : "Unspecified"
-    }, {
-      "id" : "27",
-      "tags" : "Element,Person",
-      "properties" : {
-        "structurizr.dsl.identifier" : "storagelocationadministrator"
-      },
-      "name" : "Storage Location Administrator",
-      "description" : "Manages storage locations and assigns them to Storage Officials",
-      "relationships" : [ {
-        "id" : "28",
-        "tags" : "Relationship",
-        "sourceId" : "27",
-        "destinationId" : "1",
-        "description" : "manages storage locations in"
-      } ],
-      "location" : "Unspecified"
-    }, {
-      "id" : "29",
-      "tags" : "Element,Person",
-      "properties" : {
-        "structurizr.dsl.identifier" : "requestor"
-      },
-      "name" : "Requestor",
-      "description" : "Creates requests for property items to use property item for a purpose",
-      "relationships" : [ {
-        "id" : "30",
-        "tags" : "Relationship",
-        "sourceId" : "29",
-        "destinationId" : "1",
-        "description" : "requests and receives property items in"
-      } ],
-      "location" : "Unspecified"
-    }, {
-      "id" : "31",
-      "tags" : "Element,Person",
-      "properties" : {
-        "structurizr.dsl.identifier" : "requestapprover"
-      },
-      "name" : "Request Approver",
-      "description" : "Approves or declines requests for property items",
-      "relationships" : [ {
-        "id" : "32",
-        "tags" : "Relationship",
-        "sourceId" : "31",
-        "destinationId" : "1",
-        "description" : "approves requests in"
       } ],
       "location" : "Unspecified"
     } ],
     "softwareSystems" : [ {
+      "id" : "11",
+      "tags" : "Element,Software System,Keycloak",
+      "properties" : {
+        "structurizr.dsl.identifier" : "oauthserver"
+      },
+      "name" : "Keycloak OAuth Server",
+      "description" : "OAuth2 and OpenId Connect compliant server",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
       "id" : "1",
       "tags" : "Element,Software System",
       "properties" : {
@@ -156,52 +86,17 @@
       },
       "name" : "StoreMan",
       "description" : "Registration and storage of property items in order to keep track of item locations.",
+      "relationships" : [ {
+        "id" : "13",
+        "sourceId" : "1",
+        "destinationId" : "11",
+        "description" : "requests OAuth token",
+        "technology" : "HTTPS",
+        "linkedRelationshipId" : "12"
+      } ],
       "location" : "Unspecified",
       "containers" : [ {
-        "id" : "3",
-        "tags" : "Element,Container,Angular",
-        "properties" : {
-          "structurizr.dsl.identifier" : "singlepageapplication"
-        },
-        "name" : "Single-Page Application",
-        "description" : "Provides all of the StoreMan functionality via the web browser.",
-        "relationships" : [ {
-          "id" : "9",
-          "tags" : "Relationship",
-          "sourceId" : "3",
-          "destinationId" : "6",
-          "description" : "makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "10",
-          "tags" : "Relationship",
-          "sourceId" : "3",
-          "destinationId" : "5",
-          "description" : "requests OAuth token"
-        } ],
-        "technology" : "Angular",
-        "documentation" : { }
-      }, {
-        "id" : "7",
-        "tags" : "Element,Container,Postgress",
-        "properties" : {
-          "structurizr.dsl.identifier" : "database"
-        },
-        "name" : "Database",
-        "description" : "Stores all of the StoreMan data",
-        "technology" : "Postgress",
-        "documentation" : { }
-      }, {
         "id" : "5",
-        "tags" : "Element,Container,Keycloak",
-        "properties" : {
-          "structurizr.dsl.identifier" : "oauthserver"
-        },
-        "name" : "OAuth Server",
-        "technology" : "Keycloak",
-        "documentation" : { }
-      }, {
-        "id" : "6",
         "tags" : "Element,Container,Spring Boot",
         "properties" : {
           "structurizr.dsl.identifier" : "apiapplication"
@@ -209,36 +104,19 @@
         "name" : "API Application",
         "description" : "Provides the StoreMan functionality via a JSON/HTTPS API",
         "relationships" : [ {
-          "id" : "13",
+          "id" : "10",
           "tags" : "Relationship",
-          "sourceId" : "6",
-          "destinationId" : "5",
-          "description" : "verifies OAuth token",
-          "technology" : "HTTPS"
-        }, {
-          "id" : "14",
-          "tags" : "Relationship",
-          "sourceId" : "6",
-          "destinationId" : "7",
+          "sourceId" : "5",
+          "destinationId" : "6",
           "description" : "stores and retrieves data in",
           "technology" : "JPA"
-        } ],
-        "technology" : "Spring Boot",
-        "documentation" : { }
-      }, {
-        "id" : "2",
-        "tags" : "Element,Container,Spring Boot",
-        "properties" : {
-          "structurizr.dsl.identifier" : "webapplication"
-        },
-        "name" : "Web Application",
-        "description" : "Delivers static content and the StoreMan single page application.",
-        "relationships" : [ {
-          "id" : "8",
+        }, {
+          "id" : "15",
           "tags" : "Relationship",
-          "sourceId" : "2",
-          "destinationId" : "3",
-          "description" : "delivers to the user's web browser"
+          "sourceId" : "5",
+          "destinationId" : "11",
+          "description" : "verifies OAuth token",
+          "technology" : "HTTPS"
         } ],
         "technology" : "Spring Boot",
         "documentation" : { }
@@ -251,20 +129,73 @@
         "name" : "Mobile Application",
         "description" : "Provides a limited subset of the StoreMan functionality via an Android or iOS mobile device.",
         "relationships" : [ {
-          "id" : "11",
+          "id" : "14",
           "tags" : "Relationship",
           "sourceId" : "4",
-          "destinationId" : "6",
+          "destinationId" : "11",
+          "description" : "requests OAuth token",
+          "technology" : "HTTPS"
+        }, {
+          "id" : "9",
+          "tags" : "Relationship",
+          "sourceId" : "4",
+          "destinationId" : "5",
+          "description" : "makes API calls to",
+          "technology" : "JSON/HTTPS"
+        } ],
+        "technology" : "React Native",
+        "documentation" : { }
+      }, {
+        "id" : "2",
+        "tags" : "Element,Container,Spring Boot",
+        "properties" : {
+          "structurizr.dsl.identifier" : "webapplication"
+        },
+        "name" : "Web Application",
+        "description" : "Delivers static content and the StoreMan single page application.",
+        "relationships" : [ {
+          "id" : "7",
+          "tags" : "Relationship",
+          "sourceId" : "2",
+          "destinationId" : "3",
+          "description" : "delivers to the user's web browser"
+        } ],
+        "technology" : "Spring Boot",
+        "documentation" : { }
+      }, {
+        "id" : "3",
+        "tags" : "Element,Container,Angular",
+        "properties" : {
+          "structurizr.dsl.identifier" : "singlepageapplication"
+        },
+        "name" : "Single-Page Application",
+        "description" : "Provides all of the StoreMan functionality via the web browser.",
+        "relationships" : [ {
+          "id" : "8",
+          "tags" : "Relationship",
+          "sourceId" : "3",
+          "destinationId" : "5",
           "description" : "makes API calls to",
           "technology" : "JSON/HTTPS"
         }, {
           "id" : "12",
           "tags" : "Relationship",
-          "sourceId" : "4",
-          "destinationId" : "5",
-          "description" : "requests OAuth token"
+          "sourceId" : "3",
+          "destinationId" : "11",
+          "description" : "requests OAuth token",
+          "technology" : "HTTPS"
         } ],
-        "technology" : "React Native",
+        "technology" : "Angular",
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container,Postgress",
+        "properties" : {
+          "structurizr.dsl.identifier" : "database"
+        },
+        "name" : "Database",
+        "description" : "Stores all of the StoreMan data",
+        "technology" : "Postgress",
         "documentation" : { }
       } ],
       "documentation" : {
@@ -276,7 +207,7 @@
           "order" : 2
         }, {
           "title" : "System Context",
-          "content" : "# StoreMan\r\n\r\n> StoreMan is not a real computer system and it is not intended to develop the StoreMan system. The goal of this project is to show an example of how system/software architecture can be documented using the C4 Model concepts using Structurizr DSL as a modelling notation and markdown for textual documentation.\r\n\r\n## System Context\r\nStoreMan is a computer system designed for the registration and storage of property items in order to keep track of the items in terms of their current location. This location will either be a storage location where it is currently stored or a system user who checked the item out of storage for some purpose.\r\n\r\nIn order to remove an item from storage, a request needs to be logged and approved by a supervisor before it can be handed over to the user.\r\n\r\nAfter the handover the user will perform the required actions according to the request and record the results of the request when they are done.\r\n\r\nAfter request results are recorded, an item needs to be stored again, which is handled through the same request procedure. Any user in possession of an item can store the item in one of their registered storage locations.\r\n\r\nWhen the organisation has no further use for the item, it needs to be disposed. Disposals are also handled through the request procedure.\r\n\r\nStoreMan can be used in a wide array of environments ranging from simple examples like an informal library to complex environments like a Police crime scene exhibit store.\r\n\r\n![System Context](embed:Context)",
+          "content" : "# StoreMan\r\n\r\n> StoreMan is not a real computer system and it is not intended to develop the StoreMan system. The goal of this project is to show an example of how system/software architecture can be documented using the C4 Model concepts using Structurizr DSL as a modelling notation and markdown for textual documentation.\r\n\r\n## System Context\r\nStoreMan is a computer system designed for the registration and storage of property items in order to keep track of the items in terms of their current location. This location will either be a storage location where it is currently stored or a system user who checked the item out of storage for some purpose.\r\n\r\nIn order to remove an item from storage, a request needs to be logged and approved by a supervisor before it can be handed over to the user.\r\n\r\nAfter the handover the user will perform the required actions according to the request and record the results of the request when they are done.\r\n\r\nAfter request results are recorded, an item needs to be stored again, which is handled through the same request procedure. Any user in possession of an item can store the item in one of their registered storage locations.\r\n\r\nWhen the organisation has no further use for the item, it needs to be disposed. Disposals are also handled through the request procedure.\r\n\r\nStoreMan can be used in a wide array of environments ranging from simple examples like an informal library to complex environments like a Police crime scene exhibit store.\r\n\r\n![System Context](embed:Context)\r\n\r\n### People\r\n#### User\r\nA user refers to any registered user of the StoreMan system, which interacts with the system using either the\r\nSingle-Page Web Application or the Mobile Application.\r\n\r\nUsers can have multiple roles that filters the actions that users can perform on the system. These roles include:\r\n- **Storage Location Administrator** - Manages storage locations and assigns them to Storage Officials.\r\n- **Registration Official** - Registers new property items in the system.\r\n- **Storage Official** - Stores property items in storage locations and hands over property items from a storage location.\r\n- **Requestor** - Creates requests for property items to use property item for a purpose.\r\n- **Request Approver** - Approves or declines requests for property items.\r\n\r\n#### System Administrator\r\nManages users and other configurations of the system.\r\n\r\n### Software Systems\r\n#### StoreMan\r\nStoreMan refers to the system under discussion in this document.\r\n#### Keycloak\r\nKeycloak has been selected as the OAuth2 and OpenId connect compliant single sign-on aouthorization server.",
           "format" : "Markdown",
           "filename" : "01_Context.md",
           "order" : 1
@@ -297,46 +228,30 @@
       },
       "enterpriseBoundaryVisible" : true,
       "elements" : [ {
+        "id" : "11",
+        "x" : 1270,
+        "y" : 670
+      }, {
+        "id" : "22",
+        "x" : 1285,
+        "y" : 35
+      }, {
         "id" : "1",
-        "x" : 1045,
-        "y" : 650
+        "x" : 385,
+        "y" : 660
       }, {
-        "id" : "23",
-        "x" : 1620,
-        "y" : 85
-      }, {
-        "id" : "25",
-        "x" : 1870,
-        "y" : 650
-      }, {
-        "id" : "27",
-        "x" : 490,
-        "y" : 85
-      }, {
-        "id" : "29",
-        "x" : 625,
-        "y" : 1135
-      }, {
-        "id" : "31",
-        "x" : 1300,
-        "y" : 1135
-      }, {
-        "id" : "21",
-        "x" : 145,
-        "y" : 650
+        "id" : "16",
+        "x" : 410,
+        "y" : 35
       } ],
       "relationships" : [ {
-        "id" : "28"
+        "id" : "17"
       }, {
-        "id" : "26"
+        "id" : "13"
       }, {
-        "id" : "24"
+        "id" : "23"
       }, {
-        "id" : "22"
-      }, {
-        "id" : "32"
-      }, {
-        "id" : "30"
+        "id" : "21"
       } ]
     } ],
     "containerViews" : [ {
@@ -350,6 +265,10 @@
       },
       "externalSoftwareSystemBoundariesVisible" : true,
       "elements" : [ {
+        "id" : "11",
+        "x" : 2920,
+        "y" : 75
+      }, {
         "id" : "2",
         "x" : 75,
         "y" : 640
@@ -358,49 +277,51 @@
         "x" : 1040,
         "y" : 640
       }, {
-        "id" : "15",
-        "x" : 1520,
+        "id" : "4",
+        "x" : 2005,
+        "y" : 640
+      }, {
+        "id" : "16",
+        "x" : 1070,
         "y" : 20
       }, {
-        "id" : "4",
-        "x" : 2970,
-        "y" : 640
-      }, {
         "id" : "5",
-        "x" : 2005,
-        "y" : 640
-      }, {
-        "id" : "6",
-        "x" : 2005,
+        "x" : 1490,
         "y" : 1200
       }, {
-        "id" : "7",
-        "x" : 2005,
+        "id" : "6",
+        "x" : 1490,
         "y" : 1700
       } ],
       "relationships" : [ {
-        "id" : "18",
-        "position" : 40
+        "id" : "18"
       }, {
-        "id" : "16"
+        "id" : "15",
+        "vertices" : [ {
+          "x" : 3145,
+          "y" : 615
+        } ],
+        "position" : 95
       }, {
         "id" : "14"
       }, {
-        "id" : "13"
-      }, {
-        "id" : "11"
-      }, {
         "id" : "12"
+      }, {
+        "id" : "7"
+      }, {
+        "id" : "21"
       }, {
         "id" : "8"
       }, {
-        "id" : "10"
+        "id" : "9"
       }, {
         "id" : "20"
       }, {
-        "id" : "9"
+        "id" : "10",
+        "position" : 40
       }, {
-        "id" : "19"
+        "id" : "19",
+        "position" : 40
       } ]
     } ],
     "configuration" : {
@@ -448,6 +369,7 @@
       },
       "themes" : [ "https://static.structurizr.com/themes/default/theme.json" ],
       "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
       "lastSavedView" : "ContainerStoreMan"
     }
   }
