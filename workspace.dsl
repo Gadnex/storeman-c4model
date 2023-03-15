@@ -1,8 +1,8 @@
 workspace "StoreMan" "C4 Model of the StoreMan system" {
+    !docs docs
 
     model {
         storeMan = softwareSystem "StoreMan" "Registration and storage of property items in order to keep track of item locations." {
-            !docs docs
 
             group "Front End" {
                 webApplication = container "Web Application" {
