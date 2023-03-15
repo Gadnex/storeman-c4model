@@ -72,8 +72,8 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                         description "Asynchronously render email messages and send them to the recipient"
                         technology "Spring/Java"
 
-                        registrationApi -> this "send email using" "avro/kafka"
-                        requestApi -> this "send email using" "avro/kafka"
+                        # registrationApi -> this "send email using" "avro/kafka"
+                        # requestApi -> this "send email using" "avro/kafka"
                     }
                     actuatorComponent = component "Spring Actuator" {
                         description "Expose a management API for Spring Boot application"
@@ -142,6 +142,10 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             tags "Kafka"
 
             apiApplication -> this "publish and subscribe to topics on" "Avro/tcp"
+            registrationApi -> this "publish to send-registration-email topic" "Avro/tcp"
+            requestApi -> this "publish to send-request-email topic" "Avro/tcp"
+            emailComponent -> this "subscribe to send-registration-email topic" "Avro/tcp"
+            emailComponent -> this "subscribe to send-request-email topic" "Avro/tcp"
         }
 
         mailServer = softwareSystem "Mail Server" {
