@@ -71,9 +71,6 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                     emailComponent = component "Email Component" {
                         description "Asynchronously render email messages and send them to the recipient"
                         technology "Spring/Java"
-
-                        # registrationApi -> this "send email using" "avro/kafka"
-                        # requestApi -> this "send email using" "avro/kafka"
                     }
                     actuatorComponent = component "Spring Actuator" {
                         description "Expose a management API for Spring Boot application"
@@ -81,12 +78,14 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                         tags "Spring"
                     }
                 }
-                database = container "Database Schema" {
+                databaseSchema = container "Database Schema" {
                     description "Stores all of the StoreMan data"
                     technology "Postgress"
                     tags "Postgress"
 
                     apiApplication -> this "stores and retrieves data in" "JPA"
+                    registrationApi -> this "stores and retrieves data in" "JPA"
+                    requestApi -> this "stores and retrieves data in" "JPA"
                 }
             }
         }
@@ -142,10 +141,10 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             tags "Kafka"
 
             apiApplication -> this "publish and subscribe to topics on" "Avro/tcp"
-            registrationApi -> this "publish to send-registration-email topic" "Avro/tcp"
-            requestApi -> this "publish to send-request-email topic" "Avro/tcp"
-            emailComponent -> this "subscribe to send-registration-email topic" "Avro/tcp"
-            emailComponent -> this "subscribe to send-request-email topic" "Avro/tcp"
+            registrationApi -> this "publish to send-registration-email topic" "Avro/tcp" "Registration"
+            requestApi -> this "publish to send-request-email topic" "Avro/tcp" "Request"
+            emailComponent -> this "subscribe to send-registration-email topic" "Avro/tcp" "Registration"
+            emailComponent -> this "subscribe to send-request-email topic" "Avro/tcp" "Request"
         }
 
         mailServer = softwareSystem "Mail Server" {
@@ -179,8 +178,19 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             include *
         }
 
-        component apiApplication "ComponentApiApplication" {
+        component apiApplication "ComponentApiApplication_All" "All of the components for the API Application" {
             include *
+            exclude databaseSchema
+        }
+
+        component apiApplication "ComponentApiApplication_Registration" "Only the Registration Api component of the API Application" {
+            include singlePageApplication registrationApi databaseSchema kafka emailComponent mailServer
+            exclude relationship.tag==Request
+        }
+
+        component apiApplication "ComponentApiApplication_Request" "Only the Request Api component of the API Application" {
+            include singlePageApplication requestApi databaseSchema kafka emailComponent mailServer
+            exclude relationship.tag==Registration
         }
 
         !include styles.dsl
