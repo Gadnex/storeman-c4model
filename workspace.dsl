@@ -7,12 +7,14 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             webApplication = container "Web Application" {
                 description "Delivers static content and the StoreMan single page application."
                 technology "Spring Boot"
-                tags "Spring Boot"
+                tags "Spring"
             }
             singlePageApplication = container "Single-Page Application" {
                 description "Provides all of the StoreMan functionality via the web browser."
                 technology "Angular"
                 tags "Angular"
+
+                webApplication -> this "delivers to the user's web browser"
             }
             mobileApplication = container "Mobile Application" {
                 description "Provides a limited subset of the StoreMan functionality via an Android or iOS mobile device."
@@ -22,18 +24,67 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             apiApplication = container "API Application" {
                 description  "Provides the StoreMan functionality via a JSON/HTTPS API"
                 technology "Spring Boot"
-                tags "Spring Boot"
+                tags "Spring"
+
+                registrationApi = component "Registration API" {
+                    description "API to register new property items and approving/verifying registered property items. Also for the configuration of new property item types."
+                    technology "Spring/Java"
+
+                    singlePageApplication -> this "makes API calls to" "JSON/HTTPS"
+                }
+                packagingApi = component "Packaging API" {
+                    description "API to store package property items and label packages with a barcode and important textual information."
+                    technology "Spring/Java"
+
+                    singlePageApplication -> this "makes API calls to" "JSON/HTTPS"
+                }
+                storageLocationApi = component "Storage Location API" {
+                    description "API to manage storage locations where property ietms can be stored."
+                    technology "Spring/Java"
+
+                    singlePageApplication -> this "makes API calls to" "JSON/HTTPS"
+                }
+                storageApi = component "Storage API" {
+                    description "API to store packaged property items in a storage location."
+                    technology "Spring/Java"
+
+                    singlePageApplication -> this "makes API calls to" "JSON/HTTPS"
+                    mobileApplication -> this "makes API calls to" "JSON/HTTPS"
+                }
+                handOverApi = component "Hand Over API" {
+                    description "API to hand over a property item from one user to another, or from a storage location to a user."
+                    technology "Spring/Java"
+
+                    singlePageApplication -> this "makes API calls to" "JSON/HTTPS"
+                    mobileApplication -> this "makes API calls to" "JSON/HTTPS"
+                }
+                requestApi = component "Request API" {
+                    description "API to request property items for a specific purpose and approval of requests. The API also allows configuration of request reasons."
+                    technology "Spring/Java"
+
+                    singlePageApplication -> this "makes API calls to" "JSON/HTTPS"
+                    mobileApplication -> this "makes API calls to" "JSON/HTTPS"
+                }
+                emailComponent = component "Email Component" {
+                    description "Asynchronously render email messages and send them to the recipient"
+                    technology "Spring/Java"
+
+                    registrationApi -> this "send email using" "avro/kafka"
+                    requestApi -> this "send email using" "avro/kafka"
+                }
+                actuatorComponent = component "Spring Actuator" {
+                    description "Expose a management API for Spring Boot application"
+                    technology "spring-boot-starter-actuator"
+                    tags "Spring"
+                }
             }
-            database = container "Database" {
+            database = container "Database Schema" {
                 description "Stores all of the StoreMan data"
                 technology "Postgress"
                 tags "Postgress"
-            }
 
-            webApplication -> singlePageApplication "delivers to the user's web browser"
-            singlePageApplication -> apiApplication "makes API calls to" "JSON/HTTPS"
-            mobileApplication -> apiApplication "makes API calls to" "JSON/HTTPS"
-            apiApplication -> database "stores and retrieves data in" "JPA"
+                apiApplication -> this "stores and retrieves data in" "JPA"
+            }
         }
 
         oAuthServer = softwareSystem "Keycloak" {
@@ -72,6 +123,7 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             this -> storeMan "pull metrics data from" "HTTPS"
             this -> webApplication "pull metrics data from" "HTTPS"
             this -> apiApplication "pull metrics data from" "HTTPS"
+            this -> actuatorComponent "pull metrics data from" "HTTPS"
         }
 
         grafana = softwareSystem "Grafana" {
@@ -88,9 +140,16 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             apiApplication -> this "publish and subscribe to topics on" "Avro/tcp"
         }
 
+        mailServer = softwareSystem "Mail Server" {
+            description "An SMTP capable mail server"
+            tags "External Software"
+
+            emailComponent -> this "send emails using" "SMTP"
+        }
+
         # People
         user = person "User" {
-            description "A registered user of the system"
+            description "A registered user of the system. Users can register PIs (property items), store PIs, hand over PIs, request PIs, etc."
             this -> storeMan "uses"
             this -> webApplication "navigate web browser to" "HTTPS"
             this -> singlePageApplication "interacts with user interface"
@@ -109,6 +168,10 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
         }
 
         container storeMan "ContainerStoreMan" {
+            include *
+        }
+
+        component apiApplication "ComponentApiApplication" {
             include *
         }
 

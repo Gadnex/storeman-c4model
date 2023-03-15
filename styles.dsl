@@ -5,12 +5,18 @@
 theme default
 
 styles {
-    element "Spring Boot" {
+    element "Spring" {
         stroke "#77bc1f"
         strokeWidth 10
         background "#dddddd"
         color "#77bc1f"
         icon "images/spring.png"
+    }
+    element "External Software" {
+        stroke "#4d4d4d"
+        strokeWidth 10
+        background "#dddddd"
+        color "#4d4d4d"
     }
     element "Keycloak" {
         stroke "#4d4d4d"
