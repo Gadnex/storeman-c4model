@@ -14,6 +14,9 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                     description "Provides all of the StoreMan functionality via the web browser."
                     technology "Angular"
                     tags "Angular"
+                    perspectives {
+                        Security "The Single-Page Application is a public OAuth2 and OICD client using the Authentication Code grant type with PKCE to redirect the user's browser to the Keycloak server. The OAuth2 JWT token is saved in the user's browser and passed to the API Application with every HTTP call."
+                    }
 
                     webApplication -> this "delivers to the user's web browser"
                 }
@@ -21,6 +24,9 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                     description "Provides a limited subset of the StoreMan functionality via an Android or iOS mobile device."
                     technology "React Native"
                     tags "React Native"
+                    perspectives {
+                        Security "The Mobile Application is a confidential OAuth2 and OICD client using the Authentication Code grant type to redirect the user's mobile phone browser to the Keycloak server. The OAuth2 JWT token is saved in the Mobile Application and passed to the API Application with every HTTP call."
+                    }
                 }
             }
             group "Back End" {
@@ -28,6 +34,20 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                     description  "Provides the StoreMan functionality via a JSON/HTTPS API"
                     technology "Spring Boot"
                     tags "Spring"
+                    perspectives {
+                        Security "The endpoint of the API is secured using HTTPS. The HTTPS connection is not configured by the Spring Boot application, but by the Docker container management solution. Authentication and Authorisation is implemented by using OAuth2 and OICD. The API Application is an OAuth Resource Server."
+                    }
+
+                    singlePageApplication -> this "makes API calls to" "JSON/HTTPS" {
+                        perspectives {
+                            Security "Connection secured using HTTPS."
+                        }
+                    }
+                    mobileApplication -> this "makes API calls to" "JSON/HTTPS" {
+                        perspectives {
+                            Security "Connection secured using HTTPS."
+                        }
+                    }
 
                     registrationApi = component "Registration API" {
                         description "API to register new property items and approving/verifying registered property items. Also for the configuration of new property item types."
@@ -93,10 +113,25 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
         oAuthServer = softwareSystem "Keycloak" {
             description "OAuth2 and OpenId Connect compliant server"
             tags "Keycloak"
+            perspectives {
+                Security "Keycloak is an OAuth2 and OICD compatable Authentication Server and users are managed inside Keycloak."
+            }
 
-            singlePageApplication -> this "requests OAuth token" "HTTPS"
-            mobileApplication -> this "requests OAuth token" "HTTPS"
-            apiApplication -> this "verifies OAuth token" "HTTPS"
+            singlePageApplication -> this "requests OAuth token" "HTTPS" {
+                perspectives {
+                    Security "Connection secured using HTTPS. This call is made over the public Internet from the user's web browser."
+                }
+            }
+            mobileApplication -> this "requests OAuth token" "HTTPS" {
+                perspectives {
+                    Security "Connection secured using HTTPS. This call is made over the public Internet from the user's mobile phone."
+                }
+            }
+            apiApplication -> this "verifies OAuth token" "HTTPS"  {
+                perspectives {
+                    Security "Connection secured using HTTPS. This call is NOT made over the public Internet but over the back channel network."
+                }
+            }
         }
 
         elasticSearch = softwareSystem "ElasticSearch" {
@@ -161,7 +196,11 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             this -> webApplication "navigate web browser to" "HTTPS"
             this -> singlePageApplication "interacts with user interface"
             this -> mobileApplication "interacts with user interface"
-            this -> oAuthServer "provides authentication credentials to" "OAuth/HTTPS"
+            this -> oAuthServer "provides authentication credentials to" "OAuth/HTTPS" {
+                perspectives {
+                    Security "Connection is secured using HTTPS."
+                }
+            }
         }
         systemAdministrator = person "System Administrator" {
             description "Manages users and other configurations of the system."
