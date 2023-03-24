@@ -207,9 +207,59 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             description "Manages users and other configurations of the system."
             this -> oAuthServer "manages users and configurations in"
         }
+
+        # Deployment
+        development = deploymentEnvironment "Development Environment" {
+            devLaptop = deploymentNode "Developer Laptop" {
+                deploymentNode "Docker CE (Community Edition)" {
+                    tags "Docker"
+
+                    softwareSystemInstance oAuthServer
+                    softwareSystemInstance kafka
+                    softwareSystemInstance mailServer
+                }
+                deploymentNode "JDK 17 (Java Development Kit)" {
+                    tags "Java"
+
+                    containerInstance apiApplication
+                    containerInstance webApplication
+                }
+                deploymentNode "Node.js" {
+                    tags "Node.js"
+
+                    containerInstance singlePageApplication
+                    containerInstance mobileApplication
+                }
+            }
+            deploymentNode "Amazon Web Services" {
+                 tags "Amazon Web Services - Cloud"
+                
+                deploymentNode "eu-central-1" {
+                    tags "Amazon Web Services - Region"
+                
+                    deploymentNode "Amazon EC2" {
+                        tags "Amazon Web Services - EC2"
+                        
+                        deploymentNode "Kubernetes + Rancher" {
+                            tags "Kubernetes"
+
+                            infrastructureNode "Source Control and CI/CD" "Stores Source Code and does continuous integration and continuous deployment" "GitLab" {
+                                tags "GitLab"
+                                devLaptop -> this "publish source code" "Git/TCP"
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     views {
+        properties {
+            "mermaid.url" "https://mermaid.ink"
+            "mermaid.format" "svg"
+        }
+
         systemContext storeMan "Context" {
             include * systemAdministrator fluentd elasticSearch kibana prometheus grafana
         }
@@ -231,6 +281,20 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
         component apiApplication "ComponentApiApplication_Request" "Only the Request Api component of the API Application" {
             include singlePageApplication requestApi databaseSchema kafka emailComponent mailServer
             exclude relationship.tag==Registration
+        }
+
+        deployment storeMan development "DevelopmentEnvironment" {
+            include *
+        }
+
+        image storeMan "Drawio" {
+            image diagrams/Flowchart.drawio.png
+            title "An example Draw.io diagram"
+        }
+
+        image storeMan "Mermaid" {
+            mermaid diagrams/Flowchart.mmd
+            title "An example Mermaid.js diagram"
         }
 
         !include styles.dsl

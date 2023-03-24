@@ -4,14 +4,11 @@
 
 Draw.io can save drawings as a *.drawio.png file. So it is a png file, but the details required by Draw.io to edit the image is embedded in the png file.
 
-![Draw.io Diagram](Drawio/Flowchart.drawio.png)
+![Draw.io Diagram](embed:Drawio)
 
 ### Embed Mermaid Diagram
 
 Mermaid is similar to PlantUML in that it is a diagram as code tool.
-To embed these types of images in Structurizr documentation, 2 files are required:
-- The Mermaid diagram code file.
-- A png file export of the diagram.
-Please note that if the diagram code is changed, the png file is not automatically exported or updated.
+Please note the encoding of the Mermaid file needs to be **UTF-8** and the end of line sequence needs to be **LF** and not **CRLF**.
 
-![Mermaid Diagram](Mermaid/Flowchart.png)
+![Mermaid Diagram](embed:Mermaid)

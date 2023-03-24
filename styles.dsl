@@ -1,8 +1,4 @@
-# branding {
-#     logo "images/warehouse.png"
-# }
-
-theme default
+themes default https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json
 
 styles {
     element "Spring" {
@@ -88,5 +84,37 @@ styles {
         background "#dddddd"
         color "#000000"
         icon "images/kafka.png"
+    }
+    element "Azure" {
+        stroke "#3bc7f3"
+        color "#3bc7f3"
+        icon "images/azure.png"
+    }
+    element "Kubernetes" {
+        stroke "#326de6"
+        color "#326de6"
+        icon "images/kubernetes.png"
+    }
+    element "Docker" {
+        stroke "#0091e2"
+        color "#0091e2"
+        icon "images/docker.png"
+    }
+    element "Java" {
+        stroke "#e76f00"
+        color "#e76f00"
+        icon "images/java.png"
+    }
+    element "Node.js" {
+        stroke "#689f63"
+        color "#689f63"
+        icon "images/node-js.png"
+    }
+    element "GitLab" {
+        stroke "#fc6d26"
+        strokeWidth 10
+        background "#dddddd"
+        color "#fc6d26"
+        icon "images/gitlab.png"
     }
 }
