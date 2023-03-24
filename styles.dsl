@@ -21,6 +21,13 @@ styles {
         color "#4d4d4d"
         icon "images/keycloak2.png"
     }
+    element "Azure Active Directory" {
+        stroke "#4d4d4d"
+        strokeWidth 10
+        background "#dddddd"
+        color "#4d4d4d"
+        icon "images/azure-active-directory.png"
+    }
     element "Angular" {
         shape WebBrowser
         stroke "#c3002f"

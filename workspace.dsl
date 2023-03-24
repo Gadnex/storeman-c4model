@@ -147,6 +147,13 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             }
         }
 
+        activeDirectory = softwareSystem "Microsoft Active Directory" {
+            description "An LDAP compatible active directory server which stores user credentials, roles and groups"
+            tags "Azure Active Directory"
+
+            keycloak -> this "authenticate users using" "LDAP"
+        }
+
         mailServer = softwareSystem "Mail Server" {
             description "An SMTP capable mail server"
             tags "External Software"
