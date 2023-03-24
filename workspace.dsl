@@ -109,78 +109,42 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                     requestApi -> this "stores and retrieves data in" "JPA"
                 }
             }
-        }
+            group "3rd party" {
+                keycloak = container "Keycloak" {
+                    description "OAuth2 and OpenId Connect compliant server"
+                    tags "Keycloak"
+                    perspectives {
+                        Security "Keycloak is an OAuth2 and OICD compatable Authentication Server and users are managed inside Keycloak."
+                    }
 
-        oAuthServer = softwareSystem "Keycloak" {
-            description "OAuth2 and OpenId Connect compliant server"
-            tags "Keycloak"
-            perspectives {
-                Security "Keycloak is an OAuth2 and OICD compatable Authentication Server and users are managed inside Keycloak."
-            }
+                    singlePageApplication -> this "requests OAuth token" "HTTPS" {
+                        perspectives {
+                            Security "Connection secured using HTTPS. This call is made over the public Internet from the user's web browser."
+                        }
+                    }
+                    mobileApplication -> this "requests OAuth token" "HTTPS" {
+                        perspectives {
+                            Security "Connection secured using HTTPS. This call is made over the public Internet from the user's mobile phone."
+                        }
+                    }
+                    apiApplication -> this "verifies OAuth token" "HTTPS"  {
+                        perspectives {
+                            Security "Connection secured using HTTPS. This call is NOT made over the public Internet but over the back channel network."
+                        }
+                    }
+                }
 
-            singlePageApplication -> this "requests OAuth token" "HTTPS" {
-                perspectives {
-                    Security "Connection secured using HTTPS. This call is made over the public Internet from the user's web browser."
+                kafka = container "Kafka" {
+                    description "Distributed event streaming platform"
+                    tags "Kafka"
+
+                    apiApplication -> this "publish and subscribe to topics on" "Avro/tcp"
+                    registrationApi -> this "publish to send-registration-email topic" "Avro/tcp" "Registration"
+                    requestApi -> this "publish to send-request-email topic" "Avro/tcp" "Request"
+                    emailComponent -> this "subscribe to send-registration-email topic" "Avro/tcp" "Registration"
+                    emailComponent -> this "subscribe to send-request-email topic" "Avro/tcp" "Request"
                 }
             }
-            mobileApplication -> this "requests OAuth token" "HTTPS" {
-                perspectives {
-                    Security "Connection secured using HTTPS. This call is made over the public Internet from the user's mobile phone."
-                }
-            }
-            apiApplication -> this "verifies OAuth token" "HTTPS"  {
-                perspectives {
-                    Security "Connection secured using HTTPS. This call is NOT made over the public Internet but over the back channel network."
-                }
-            }
-        }
-
-        elasticSearch = softwareSystem "ElasticSearch" {
-            description "Distributed JSON-based search and analytics engine."
-            tags "ElasticSearch"
-        }
-
-        fluentd = softwareSystem "Fluentd" {
-            description "Open source data collector for unified logging layer."
-            tags "Fluentd"
-
-            this -> storeMan "collect logs from" "File System"
-            this -> elasticSearch "persists logs to"
-        }
-
-        kibana = softwareSystem "Kibana" {
-            description "Visualization and data analysis of log data"
-            tags "Kibana"
-
-            this -> elasticSearch "visualize logs from"
-        }
-
-        prometheus = softwareSystem "Prometheus" {
-            description "Scraping and storage of metrics data"
-            tags "Prometheus"
-
-            this -> storeMan "pull metrics data from" "HTTPS"
-            this -> webApplication "pull metrics data from" "HTTPS"
-            this -> apiApplication "pull metrics data from" "HTTPS"
-            this -> actuatorComponent "pull metrics data from" "HTTPS"
-        }
-
-        grafana = softwareSystem "Grafana" {
-            description "Visualization of metrics data"
-            tags "Grafana"
-
-            this -> prometheus "visualize metrics data from"
-        }
-
-        kafka = softwareSystem "Kafka" {
-            description "Distributed event streaming platform"
-            tags "Kafka"
-
-            apiApplication -> this "publish and subscribe to topics on" "Avro/tcp"
-            registrationApi -> this "publish to send-registration-email topic" "Avro/tcp" "Registration"
-            requestApi -> this "publish to send-request-email topic" "Avro/tcp" "Request"
-            emailComponent -> this "subscribe to send-registration-email topic" "Avro/tcp" "Registration"
-            emailComponent -> this "subscribe to send-request-email topic" "Avro/tcp" "Request"
         }
 
         mailServer = softwareSystem "Mail Server" {
@@ -197,7 +161,7 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
             this -> webApplication "navigate web browser to" "HTTPS"
             this -> singlePageApplication "interacts with user interface"
             this -> mobileApplication "interacts with user interface"
-            this -> oAuthServer "provides authentication credentials to" "OAuth/HTTPS" {
+            this -> keycloak "provides authentication credentials to" "OAuth/HTTPS" {
                 perspectives {
                     Security "Connection is secured using HTTPS."
                 }
@@ -205,7 +169,7 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
         }
         systemAdministrator = person "System Administrator" {
             description "Manages users and other configurations of the system."
-            this -> oAuthServer "manages users and configurations in"
+            this -> keycloak "manages users and configurations in"
         }
 
         # Deployment
@@ -214,8 +178,8 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                 deploymentNode "Docker CE (Community Edition)" {
                     tags "Docker"
 
-                    softwareSystemInstance oAuthServer
-                    softwareSystemInstance kafka
+                    containerInstance keycloak
+                    containerInstance kafka
                     softwareSystemInstance mailServer
                 }
                 deploymentNode "JDK 17 (Java Development Kit)" {
@@ -243,9 +207,65 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                         deploymentNode "Kubernetes + Rancher" {
                             tags "Kubernetes"
 
-                            infrastructureNode "Source Control and CI/CD" "Stores Source Code and does continuous integration and continuous deployment" "GitLab" {
+                            gitLab = infrastructureNode "Source Control and CI/CD" "Stores Source Code and does continuous integration and continuous deployment" "GitLab" {
                                 tags "GitLab"
                                 devLaptop -> this "publish source code" "Git/TCP"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        production = deploymentEnvironment "Production Environment" {
+            deploymentNode "Amazon Web Services" {
+                 tags "Amazon Web Services - Cloud"
+                
+                deploymentNode "eu-central-1" {
+                    tags "Amazon Web Services - Region"
+                
+                    deploymentNode "Amazon EC2" {
+                        tags "Amazon Web Services - EC2"
+                        
+                        prodK8S = deploymentNode "Kubernetes + Rancher" {
+                            tags "Kubernetes"
+                            gitLab -> this "build source code and deploy Docker containers to"
+
+                            elasticSearch = infrastructureNode "ElasticSearch" {
+                                description "Distributed JSON-based search and analytics engine."
+                                tags "ElasticSearch"
+                            }
+
+                            fluentd = infrastructureNode "Fluentd" {
+                                description "Open source data collector for unified logging layer."
+                                tags "Fluentd"
+
+                                # this -> storeMan "collect logs from" "File System"
+                                fluentd -> elasticSearch "persists logs to"
+                            }
+
+                            kibana = infrastructureNode "Kibana" {
+                                description "Visualization and data analysis of log data"
+                                tags "Kibana"
+
+                                kibana -> elasticSearch "visualize logs from"
+                            }
+
+                            prometheus = infrastructureNode "Prometheus" {
+                                description "Scraping and storage of metrics data"
+                                tags "Prometheus"
+
+                                # prometheus -> storeMan "pull metrics data from" "HTTPS"
+                                # prometheus -> webApplication "pull metrics data from" "HTTPS"
+                                # prometheus -> apiApplication "pull metrics data from" "HTTPS"
+                                # prometheus -> actuatorComponent "pull metrics data from" "HTTPS"
+                            }
+
+                            grafana = infrastructureNode "Grafana" {
+                                description "Visualization of metrics data"
+                                tags "Grafana"
+
+                                grafana -> prometheus "visualize metrics data from"
                             }
                         }
                     }
@@ -261,7 +281,7 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
         }
 
         systemContext storeMan "Context" {
-            include * systemAdministrator fluentd elasticSearch kibana prometheus grafana
+            include * systemAdministrator
         }
 
         container storeMan "ContainerStoreMan" {
@@ -285,6 +305,10 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
 
         deployment storeMan development "DevelopmentEnvironment" {
             include *
+        }
+
+        deployment storeMan production "ProductionEnvironment" {
+            include * gitLab
         }
 
         image storeMan "Drawio" {
