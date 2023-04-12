@@ -1,4 +1,4 @@
-themes default https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json
+themes default https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json https://static.structurizr.com/themes/microsoft-azure-2023.01.24/theme.json
 
 styles {
     element "Spring" {
@@ -42,7 +42,7 @@ styles {
         color "#00d8ff"
         icon "images/react_native.png"
     }
-    element "Postgress" {
+    element "PostgreSQL" {
         shape Cylinder
         stroke "#336892"
         strokeWidth 10

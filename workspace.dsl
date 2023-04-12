@@ -101,8 +101,8 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                 }
                 databaseSchema = container "Database Schema" {
                     description "Stores all of the StoreMan data"
-                    technology "Postgress"
-                    tags "Postgress"
+                    technology "PostgreSQL"
+                    tags "PostgreSQL"
 
                     apiApplication -> this "stores and retrieves data in" "JPA"
                     registrationApi -> this "stores and retrieves data in" "JPA"
@@ -180,7 +180,126 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
         }
 
         # Deployment
-        development = deploymentEnvironment "Development Environment" {
+        production = deploymentEnvironment "Production Environment" {
+            deploymentNode "hub-virtual-network" {
+                tags "Microsoft Azure - Virtual Networks"
+
+                firewall = infrastructureNode "Corp Firewall" {
+                    tags "Microsoft Azure - Firewalls"
+                    description "Secure network and prevent illegal incoming traffic"
+                }
+
+                gateway = infrastructureNode "Corp application gateway" {
+                    tags "Microsoft Azure - Application Gateways"
+                    description "Route incoming requests to correct environment"
+
+                    firewall -> gateway "allow requests to" "HTTPS"
+                }
+            }
+
+            deploymentNode "spoke-virtual-network" {
+                tags "Microsoft Azure - Virtual Networks"
+
+                azureSpingApps = deploymentNode "Azure Spring Apps" {
+                    tags "Microsoft Azure - Azure Spring Apps"
+
+                    deploymentNode "Service Runtime Subnet" {
+                        infrastructureNode "Azure Load Balancer" {
+                            tags "Microsoft Azure - Load Balancers"
+                            description "Load balance incoming requests over container instances"
+                        }
+
+                        infrastructureNode "Config Server" {
+                            tags "Spring"
+                            description "Manage configuration details for Spring Boot applications"
+                        }
+
+                        infrastructureNode "Service Registry" {
+                            tags "Spring"
+                            description "Spring Boot applications register temselves with the service registry and other apps can look up apps on the service registry"
+                        }
+                    }
+
+                    deploymentNode "Apps Subnet" {
+                        infrastructureNode "Azure Load Balancer" {
+                            tags "Microsoft Azure - Load Balancers"
+                            description "Load balance incoming requests over container instances"
+                        }
+
+                        containerInstance webApplication
+                        containerInstance apiApplication
+                    }
+
+                    gateway -> azureSpingApps "route request to" "HTTPS"
+                }
+
+                deploymentNode "Data Services Subnet" {
+                    tags "Microsoft Azure - Subnet"
+
+                    deploymentNode "Azure PostgreSQL DB" {
+                        tags "Microsoft Azure - Azure Database PostgreSQL Server"
+
+                        containerInstance databaseSchema
+                    }
+
+                }
+
+                deploymentNode "Azure Virtual Machine" {
+                    tags "Microsoft Azure - Virtual Machine"
+                    instances 3
+
+                    containerInstance keycloak
+                }
+            }
+
+            deploymentNode "On-premises network" {
+                tags "Microsoft Azure - Exchange On Premises Access"
+
+                softwareSystemInstance mailServer
+                softwareSystemInstance activeDirectory
+            }
+
+            deploymentNode "Confluent Cloud Environment" {
+                containerInstance kafka
+            }
+
+            deploymentNode "CI/CD Pipelines" {
+                azureDevOps = infrastructureNode "Azure DevOps" {
+                    tags "Microsoft Azure - Azure DevOps"
+                    description "Manage source code and versioning, build and deploy source code."
+
+                    # devLaptop -> azureDevOps "publish source code" "Git/TCP"
+                    azureDevOps -> azureSpingApps "deploy Docker containers"
+                }
+            }
+
+            deploymentNode "Security Infrastructure" {
+                azureKeyVault = infrastructureNode "Azure Key Vault" {
+                    tags "Microsoft Azure - Key Vaults"
+                    description "Manages application secrets and provides them to authorized cloud applications."
+
+                    azureSpingApps -> azureKeyVault "pull secrets from"
+                }
+            }
+
+            deploymentNode "Monitoring Infrastructure" {
+                azureMonitor = infrastructureNode "Azure Monitor" {
+                    tags "Microsoft Azure - Monitor"
+                    description "Monitor cloud applications and make monitoring data available via a UI."
+
+                    azureMonitor -> azureSpingApps "monitor applications"
+                }
+            }
+        }
+
+        localDevelopment = deploymentEnvironment "Development Environment" {
+            deploymentNode "CI/CD Pipelines" {
+                azureDevOpsDev = infrastructureNode "Azure DevOps" {
+                    tags "Microsoft Azure - Azure DevOps"
+                    description "Manage source code and versioning, build and deploy source code."
+                }
+            }
+
             devLaptop = deploymentNode "Developer Laptop" {
                 deploymentNode "Docker CE (Community Edition)" {
                     tags "Docker"
@@ -201,134 +320,12 @@ workspace "StoreMan" "C4 Model of the StoreMan system" {
                     containerInstance singlePageApplication
                     containerInstance mobileApplication
                 }
-            }
-            deploymentNode "Amazon Web Services" {
-                 tags "Amazon Web Services - Cloud"
-                
-                deploymentNode "eu-central-1" {
-                    tags "Amazon Web Services - Region"
-                
-                    deploymentNode "Amazon EC2" {
-                        tags "Amazon Web Services - EC2"
-                        
-                        deploymentNode "Kubernetes + Rancher" {
-                            tags "Kubernetes"
 
-                            gitLab = infrastructureNode "Source Control and CI/CD" "Stores Source Code and does continuous integration and continuous deployment" "GitLab" {
-                                tags "GitLab"
-                                devLaptop -> this "publish source code" "Git/TCP"
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        production = deploymentEnvironment "Production Environment" {
-            deploymentNode "Amazon Web Services" {
-                 tags "Amazon Web Services - Cloud"
-                
-                deploymentNode "eu-central-1" {
-                    tags "Amazon Web Services - Region"
-                
-                    deploymentNode "Amazon EC2" {
-                        tags "Amazon Web Services - EC2"
-                        
-                        prodK8S = deploymentNode "Kubernetes + Rancher" {
-                            tags "Kubernetes"
-                            gitLab -> this "build source code and deploy Docker containers to"
-
-                            elasticSearch = infrastructureNode "ElasticSearch" {
-                                description "Distributed JSON-based search and analytics engine."
-                                tags "ElasticSearch"
-                            }
-
-                            fluentd = infrastructureNode "Fluentd" {
-                                description "Open source data collector for unified logging layer."
-                                tags "Fluentd"
-
-                                # this -> storeMan "collect logs from" "File System"
-                                fluentd -> elasticSearch "persists logs to"
-                            }
-
-                            kibana = infrastructureNode "Kibana" {
-                                description "Visualization and data analysis of log data"
-                                tags "Kibana"
-
-                                kibana -> elasticSearch "visualize logs from"
-                            }
-
-                            prometheus = infrastructureNode "Prometheus" {
-                                description "Scraping and storage of metrics data"
-                                tags "Prometheus"
-
-                                # prometheus -> storeMan "pull metrics data from" "HTTPS"
-                                # prometheus -> webApplication "pull metrics data from" "HTTPS"
-                                # prometheus -> apiApplication "pull metrics data from" "HTTPS"
-                                # prometheus -> actuatorComponent "pull metrics data from" "HTTPS"
-                            }
-
-                            grafana = infrastructureNode "Grafana" {
-                                description "Visualization of metrics data"
-                                tags "Grafana"
-
-                                grafana -> prometheus "visualize metrics data from"
-                            }
-                        }
-                    }
-                }
+                devLaptop -> azureDevOpsDev "pull and push source code" "Git"
             }
         }
     }
 
-    views {
-        properties {
-            "mermaid.url" "https://mermaid.ink"
-            "mermaid.format" "svg"
-        }
-
-        systemContext storeMan "Context" {
-            include * systemAdministrator
-        }
-
-        container storeMan "ContainerStoreMan" {
-            include *
-        }
-
-        component apiApplication "ComponentApiApplication_All" "All of the components for the API Application" {
-            include *
-            exclude databaseSchema
-        }
-
-        component apiApplication "ComponentApiApplication_Registration" "Only the Registration Api component of the API Application" {
-            include singlePageApplication registrationApi databaseSchema kafka emailComponent mailServer
-            exclude relationship.tag==Request
-        }
-
-        component apiApplication "ComponentApiApplication_Request" "Only the Request Api component of the API Application" {
-            include singlePageApplication requestApi databaseSchema kafka emailComponent mailServer
-            exclude relationship.tag==Registration
-        }
-
-        deployment storeMan development "DevelopmentEnvironment" {
-            include *
-        }
-
-        deployment storeMan production "ProductionEnvironment" {
-            include * gitLab
-        }
-
-        image storeMan "Drawio" {
-            image diagrams/Flowchart.drawio.png
-            title "An example Draw.io diagram"
-        }
-
-        image storeMan "Mermaid" {
-            mermaid diagrams/Flowchart.mmd
-            title "An example Mermaid.js diagram"
-        }
-
-        !include styles.dsl
-    }
+    !include views.dsl
 
 }
