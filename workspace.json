@@ -2,7 +2,7 @@
   "id" : 1,
   "name" : "StoreMan",
   "description" : "C4 Model of the StoreMan system",
-  "lastModifiedDate" : "2023-04-11T07:44:34Z",
+  "lastModifiedDate" : "2023-06-20T13:49:13Z",
   "properties" : {
     "structurizr.dsl" : "d29ya3NwYWNlICJTdG9yZU1hbiIgIkM0IE1vZGVsIG9mIHRoZSBTdG9yZU1hbiBzeXN0ZW0iIHsKICAgICFkb2NzIGRvY3MKICAgICFhZHJzIGFkcnMKCiAgICBtb2RlbCB7CiAgICAgICAgc3RvcmVNYW4gPSBzb2Z0d2FyZVN5c3RlbSAiU3RvcmVNYW4iICJSZWdpc3RyYXRpb24gYW5kIHN0b3JhZ2Ugb2YgcHJvcGVydHkgaXRlbXMgaW4gb3JkZXIgdG8ga2VlcCB0cmFjayBvZiBpdGVtIGxvY2F0aW9ucy4iIHsKCiAgICAgICAgICAgIGdyb3VwICJGcm9udCBFbmQiIHsKICAgICAgICAgICAgICAgIHdlYkFwcGxpY2F0aW9uID0gY29udGFpbmVyICJXZWIgQXBwbGljYXRpb24iIHsKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiRGVsaXZlcnMgc3RhdGljIGNvbnRlbnQgYW5kIHRoZSBTdG9yZU1hbiBzaW5nbGUgcGFnZSBhcHBsaWNhdGlvbi4iCiAgICAgICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiU3ByaW5nIEJvb3QiCiAgICAgICAgICAgICAgICAgICAgdGFncyAiU3ByaW5nIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgc2luZ2xlUGFnZUFwcGxpY2F0aW9uID0gY29udGFpbmVyICJTaW5nbGUtUGFnZSBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJQcm92aWRlcyBhbGwgb2YgdGhlIFN0b3JlTWFuIGZ1bmN0aW9uYWxpdHkgdmlhIHRoZSB3ZWIgYnJvd3Nlci4iCiAgICAgICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiQW5ndWxhciIKICAgICAgICAgICAgICAgICAgICB0YWdzICJBbmd1bGFyIgogICAgICAgICAgICAgICAgICAgIHBlcnNwZWN0aXZlcyB7CiAgICAgICAgICAgICAgICAgICAgICAgIFNlY3VyaXR5ICJUaGUgU2luZ2xlLVBhZ2UgQXBwbGljYXRpb24gaXMgYSBwdWJsaWMgT0F1dGgyIGFuZCBPSUNEIGNsaWVudCB1c2luZyB0aGUgQXV0aGVudGljYXRpb24gQ29kZSBncmFudCB0eXBlIHdpdGggUEtDRSB0byByZWRpcmVjdCB0aGUgdXNlcidzIGJyb3dzZXIgdG8gdGhlIEtleWNsb2FrIHNlcnZlci4gVGhlIE9BdXRoMiBKV1QgdG9rZW4gaXMgc2F2ZWQgaW4gdGhlIHVzZXIncyBicm93c2VyIGFuZCBwYXNzZWQgdG8gdGhlIEFQSSBBcHBsaWNhdGlvbiB3aXRoIGV2ZXJ5IEhUVFAgY2FsbC4iCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICB3ZWJBcHBsaWNhdGlvbiAtPiB0aGlzICJkZWxpdmVycyB0byB0aGUgdXNlcidzIHdlYiBicm93c2VyIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgbW9iaWxlQXBwbGljYXRpb24gPSBjb250YWluZXIgIk1vYmlsZSBBcHBsaWNhdGlvbiIgewogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJQcm92aWRlcyBhIGxpbWl0ZWQgc3Vic2V0IG9mIHRoZSBTdG9yZU1hbiBmdW5jdGlvbmFsaXR5IHZpYSBhbiBBbmRyb2lkIG9yIGlPUyBtb2JpbGUgZGV2aWNlLiIKICAgICAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJSZWFjdCBOYXRpdmUiCiAgICAgICAgICAgICAgICAgICAgdGFncyAiUmVhY3QgTmF0aXZlIgogICAgICAgICAgICAgICAgICAgIHBlcnNwZWN0aXZlcyB7CiAgICAgICAgICAgICAgICAgICAgICAgIFNlY3VyaXR5ICJUaGUgTW9iaWxlIEFwcGxpY2F0aW9uIGlzIGEgY29uZmlkZW50aWFsIE9BdXRoMiBhbmQgT0lDRCBjbGllbnQgdXNpbmcgdGhlIEF1dGhlbnRpY2F0aW9uIENvZGUgZ3JhbnQgdHlwZSB0byByZWRpcmVjdCB0aGUgdXNlcidzIG1vYmlsZSBwaG9uZSBicm93c2VyIHRvIHRoZSBLZXljbG9hayBzZXJ2ZXIuIFRoZSBPQXV0aDIgSldUIHRva2VuIGlzIHNhdmVkIGluIHRoZSBNb2JpbGUgQXBwbGljYXRpb24gYW5kIHBhc3NlZCB0byB0aGUgQVBJIEFwcGxpY2F0aW9uIHdpdGggZXZlcnkgSFRUUCBjYWxsLiIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgZ3JvdXAgIkJhY2sgRW5kIiB7CiAgICAgICAgICAgICAgICBhcGlBcHBsaWNhdGlvbiA9IGNvbnRhaW5lciAiQVBJIEFwcGxpY2F0aW9uIiB7CiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gICJQcm92aWRlcyB0aGUgU3RvcmVNYW4gZnVuY3Rpb25hbGl0eSB2aWEgYSBKU09OL0hUVFBTIEFQSSIKICAgICAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJTcHJpbmcgQm9vdCIKICAgICAgICAgICAgICAgICAgICB0YWdzICJTcHJpbmciCiAgICAgICAgICAgICAgICAgICAgcGVyc3BlY3RpdmVzIHsKICAgICAgICAgICAgICAgICAgICAgICAgU2VjdXJpdHkgIlRoZSBlbmRwb2ludCBvZiB0aGUgQVBJIGlzIHNlY3VyZWQgdXNpbmcgSFRUUFMuIFRoZSBIVFRQUyBjb25uZWN0aW9uIGlzIG5vdCBjb25maWd1cmVkIGJ5IHRoZSBTcHJpbmcgQm9vdCBhcHBsaWNhdGlvbiwgYnV0IGJ5IHRoZSBEb2NrZXIgY29udGFpbmVyIG1hbmFnZW1lbnQgc29sdXRpb24uIEF1dGhlbnRpY2F0aW9uIGFuZCBBdXRob3Jpc2F0aW9uIGlzIGltcGxlbWVudGVkIGJ5IHVzaW5nIE9BdXRoMiBhbmQgT0lDRC4gVGhlIEFQSSBBcHBsaWNhdGlvbiBpcyBhbiBPQXV0aCBSZXNvdXJjZSBTZXJ2ZXIuIgogICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgc2luZ2xlUGFnZUFwcGxpY2F0aW9uIC0+IHRoaXMgIm1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgcGVyc3BlY3RpdmVzIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNlY3VyaXR5ICJDb25uZWN0aW9uIHNlY3VyZWQgdXNpbmcgSFRUUFMuIgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIG1vYmlsZUFwcGxpY2F0aW9uIC0+IHRoaXMgIm1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiIHsKICAgICAgICAgICAgICAgICAgICAgICAgcGVyc3BlY3RpdmVzIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFNlY3VyaXR5ICJDb25uZWN0aW9uIHNlY3VyZWQgdXNpbmcgSFRUUFMuIgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICByZWdpc3RyYXRpb25BcGkgPSBjb21wb25lbnQgIlJlZ2lzdHJhdGlvbiBBUEkiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkFQSSB0byByZWdpc3RlciBuZXcgcHJvcGVydHkgaXRlbXMgYW5kIGFwcHJvdmluZy92ZXJpZnlpbmcgcmVnaXN0ZXJlZCBwcm9wZXJ0eSBpdGVtcy4gQWxzbyBmb3IgdGhlIGNvbmZpZ3VyYXRpb24gb2YgbmV3IHByb3BlcnR5IGl0ZW0gdHlwZXMuIgogICAgICAgICAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJTcHJpbmcvSmF2YSIKCiAgICAgICAgICAgICAgICAgICAgICAgIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAtPiB0aGlzICJtYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBwYWNrYWdpbmdBcGkgPSBjb21wb25lbnQgIlBhY2thZ2luZyBBUEkiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkFQSSB0byBzdG9yZSBwYWNrYWdlIHByb3BlcnR5IGl0ZW1zIGFuZCBsYWJlbCBwYWNrYWdlcyB3aXRoIGEgYmFyY29kZSBhbmQgaW1wb3J0YW50IHRleHR1YWwgaW5mb3JtYXRpb24uIgogICAgICAgICAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJTcHJpbmcvSmF2YSIKCiAgICAgICAgICAgICAgICAgICAgICAgIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAtPiB0aGlzICJtYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBzdG9yYWdlTG9jYXRpb25BcGkgPSBjb21wb25lbnQgIlN0b3JhZ2UgTG9jYXRpb24gQVBJIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBUEkgdG8gbWFuYWdlIHN0b3JhZ2UgbG9jYXRpb25zIHdoZXJlIHByb3BlcnR5IGlldG1zIGNhbiBiZSBzdG9yZWQuIgogICAgICAgICAgICAgICAgICAgICAgICB0ZWNobm9sb2d5ICJTcHJpbmcvSmF2YSIKCiAgICAgICAgICAgICAgICAgICAgICAgIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiAtPiB0aGlzICJtYWtlcyBBUEkgY2FsbHMgdG8iICJKU09OL0hUVFBTIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBzdG9yYWdlQXBpID0gY29tcG9uZW50ICJTdG9yYWdlIEFQSSIgewogICAgICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiQVBJIHRvIHN0b3JlIHBhY2thZ2VkIHByb3BlcnR5IGl0ZW1zIGluIGEgc3RvcmFnZSBsb2NhdGlvbi4iCiAgICAgICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlNwcmluZy9KYXZhIgoKICAgICAgICAgICAgICAgICAgICAgICAgc2luZ2xlUGFnZUFwcGxpY2F0aW9uIC0+IHRoaXMgIm1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgICAgICAgICAgICAgICAgIG1vYmlsZUFwcGxpY2F0aW9uIC0+IHRoaXMgIm1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGhhbmRPdmVyQXBpID0gY29tcG9uZW50ICJIYW5kIE92ZXIgQVBJIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBUEkgdG8gaGFuZCBvdmVyIGEgcHJvcGVydHkgaXRlbSBmcm9tIG9uZSB1c2VyIHRvIGFub3RoZXIsIG9yIGZyb20gYSBzdG9yYWdlIGxvY2F0aW9uIHRvIGEgdXNlci4iCiAgICAgICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlNwcmluZy9KYXZhIgoKICAgICAgICAgICAgICAgICAgICAgICAgc2luZ2xlUGFnZUFwcGxpY2F0aW9uIC0+IHRoaXMgIm1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgICAgICAgICAgICAgICAgIG1vYmlsZUFwcGxpY2F0aW9uIC0+IHRoaXMgIm1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIHJlcXVlc3RBcGkgPSBjb21wb25lbnQgIlJlcXVlc3QgQVBJIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBUEkgdG8gcmVxdWVzdCBwcm9wZXJ0eSBpdGVtcyBmb3IgYSBzcGVjaWZpYyBwdXJwb3NlIGFuZCBhcHByb3ZhbCBvZiByZXF1ZXN0cy4gVGhlIEFQSSBhbHNvIGFsbG93cyBjb25maWd1cmF0aW9uIG9mIHJlcXVlc3QgcmVhc29ucy4iCiAgICAgICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlNwcmluZy9KYXZhIgoKICAgICAgICAgICAgICAgICAgICAgICAgc2luZ2xlUGFnZUFwcGxpY2F0aW9uIC0+IHRoaXMgIm1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgICAgICAgICAgICAgICAgIG1vYmlsZUFwcGxpY2F0aW9uIC0+IHRoaXMgIm1ha2VzIEFQSSBjYWxscyB0byIgIkpTT04vSFRUUFMiCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGVtYWlsQ29tcG9uZW50ID0gY29tcG9uZW50ICJFbWFpbCBDb21wb25lbnQiIHsKICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkFzeW5jaHJvbm91c2x5IHJlbmRlciBlbWFpbCBtZXNzYWdlcyBhbmQgc2VuZCB0aGVtIHRvIHRoZSByZWNpcGllbnQiCiAgICAgICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgIlNwcmluZy9KYXZhIgogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBhY3R1YXRvckNvbXBvbmVudCA9IGNvbXBvbmVudCAiU3ByaW5nIEFjdHVhdG9yIiB7CiAgICAgICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJFeHBvc2UgYSBtYW5hZ2VtZW50IEFQSSBmb3IgU3ByaW5nIEJvb3QgYXBwbGljYXRpb24iCiAgICAgICAgICAgICAgICAgICAgICAgIHRlY2hub2xvZ3kgInNwcmluZy1ib290LXN0YXJ0ZXItYWN0dWF0b3IiCiAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIlNwcmluZyIKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkYXRhYmFzZVNjaGVtYSA9IGNvbnRhaW5lciAiRGF0YWJhc2UgU2NoZW1hIiB7CiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlN0b3JlcyBhbGwgb2YgdGhlIFN0b3JlTWFuIGRhdGEiCiAgICAgICAgICAgICAgICAgICAgdGVjaG5vbG9neSAiUG9zdGdyZVNRTCIKICAgICAgICAgICAgICAgICAgICB0YWdzICJQb3N0Z3JlU1FMIgoKICAgICAgICAgICAgICAgICAgICBhcGlBcHBsaWNhdGlvbiAtPiB0aGlzICJzdG9yZXMgYW5kIHJldHJpZXZlcyBkYXRhIGluIiAiSlBBIgogICAgICAgICAgICAgICAgICAgIHJlZ2lzdHJhdGlvbkFwaSAtPiB0aGlzICJzdG9yZXMgYW5kIHJldHJpZXZlcyBkYXRhIGluIiAiSlBBIgogICAgICAgICAgICAgICAgICAgIHJlcXVlc3RBcGkgLT4gdGhpcyAic3RvcmVzIGFuZCByZXRyaWV2ZXMgZGF0YSBpbiIgIkpQQSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICBncm91cCAiM3JkIHBhcnR5IiB7CiAgICAgICAgICAgICAgICBrZXljbG9hayA9IGNvbnRhaW5lciAiS2V5Y2xvYWsiIHsKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiT0F1dGgyIGFuZCBPcGVuSWQgQ29ubmVjdCBjb21wbGlhbnQgc2VydmVyIgogICAgICAgICAgICAgICAgICAgIHRhZ3MgIktleWNsb2FrIgogICAgICAgICAgICAgICAgICAgIHBlcnNwZWN0aXZlcyB7CiAgICAgICAgICAgICAgICAgICAgICAgIFNlY3VyaXR5ICJLZXljbG9hayBpcyBhbiBPQXV0aDIgYW5kIE9JQ0QgY29tcGF0YWJsZSBBdXRoZW50aWNhdGlvbiBTZXJ2ZXIgYW5kIHVzZXJzIGFyZSBtYW5hZ2VkIGluc2lkZSBLZXljbG9hay4iCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBzaW5nbGVQYWdlQXBwbGljYXRpb24gLT4gdGhpcyAicmVxdWVzdHMgT0F1dGggdG9rZW4iICJIVFRQUyIgewogICAgICAgICAgICAgICAgICAgICAgICBwZXJzcGVjdGl2ZXMgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgU2VjdXJpdHkgIkNvbm5lY3Rpb24gc2VjdXJlZCB1c2luZyBIVFRQUy4gVGhpcyBjYWxsIGlzIG1hZGUgb3ZlciB0aGUgcHVibGljIEludGVybmV0IGZyb20gdGhlIHVzZXIncyB3ZWIgYnJvd3Nlci4iCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgbW9iaWxlQXBwbGljYXRpb24gLT4gdGhpcyAicmVxdWVzdHMgT0F1dGggdG9rZW4iICJIVFRQUyIgewogICAgICAgICAgICAgICAgICAgICAgICBwZXJzcGVjdGl2ZXMgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgU2VjdXJpdHkgIkNvbm5lY3Rpb24gc2VjdXJlZCB1c2luZyBIVFRQUy4gVGhpcyBjYWxsIGlzIG1hZGUgb3ZlciB0aGUgcHVibGljIEludGVybmV0IGZyb20gdGhlIHVzZXIncyBtb2JpbGUgcGhvbmUuIgogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGFwaUFwcGxpY2F0aW9uIC0+IHRoaXMgInZlcmlmaWVzIE9BdXRoIHRva2VuIiAiSFRUUFMiICB7CiAgICAgICAgICAgICAgICAgICAgICAgIHBlcnNwZWN0aXZlcyB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBTZWN1cml0eSAiQ29ubmVjdGlvbiBzZWN1cmVkIHVzaW5nIEhUVFBTLiBUaGlzIGNhbGwgaXMgTk9UIG1hZGUgb3ZlciB0aGUgcHVibGljIEludGVybmV0IGJ1dCBvdmVyIHRoZSBiYWNrIGNoYW5uZWwgbmV0d29yay4iCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAga2Fma2EgPSBjb250YWluZXIgIkthZmthIiB7CiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkRpc3RyaWJ1dGVkIGV2ZW50IHN0cmVhbWluZyBwbGF0Zm9ybSIKICAgICAgICAgICAgICAgICAgICB0YWdzICJLYWZrYSIKCiAgICAgICAgICAgICAgICAgICAgYXBpQXBwbGljYXRpb24gLT4gdGhpcyAicHVibGlzaCBhbmQgc3Vic2NyaWJlIHRvIHRvcGljcyBvbiIgIkF2cm8vdGNwIgogICAgICAgICAgICAgICAgICAgIHJlZ2lzdHJhdGlvbkFwaSAtPiB0aGlzICJwdWJsaXNoIHRvIHNlbmQtcmVnaXN0cmF0aW9uLWVtYWlsIHRvcGljIiAiQXZyby90Y3AiICJSZWdpc3RyYXRpb24iCiAgICAgICAgICAgICAgICAgICAgcmVxdWVzdEFwaSAtPiB0aGlzICJwdWJsaXNoIHRvIHNlbmQtcmVxdWVzdC1lbWFpbCB0b3BpYyIgIkF2cm8vdGNwIiAiUmVxdWVzdCIKICAgICAgICAgICAgICAgICAgICBlbWFpbENvbXBvbmVudCAtPiB0aGlzICJzdWJzY3JpYmUgdG8gc2VuZC1yZWdpc3RyYXRpb24tZW1haWwgdG9waWMiICJBdnJvL3RjcCIgIlJlZ2lzdHJhdGlvbiIKICAgICAgICAgICAgICAgICAgICBlbWFpbENvbXBvbmVudCAtPiB0aGlzICJzdWJzY3JpYmUgdG8gc2VuZC1yZXF1ZXN0LWVtYWlsIHRvcGljIiAiQXZyby90Y3AiICJSZXF1ZXN0IgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBhY3RpdmVEaXJlY3RvcnkgPSBzb2Z0d2FyZVN5c3RlbSAiTWljcm9zb2Z0IEFjdGl2ZSBEaXJlY3RvcnkiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIkFuIExEQVAgY29tcGF0aWJsZSBhY3RpdmUgZGlyZWN0b3J5IHNlcnZlciB3aGljaCBzdG9yZXMgdXNlciBjcmVkZW50aWFscywgcm9sZXMgYW5kIGdyb3VwcyIKICAgICAgICAgICAgdGFncyAiQXp1cmUgQWN0aXZlIERpcmVjdG9yeSIKCiAgICAgICAgICAgIGtleWNsb2FrIC0+IHRoaXMgImF1dGhlbnRpY2F0ZSB1c2VycyB1c2luZyIgIkxEQVAiCiAgICAgICAgfQoKICAgICAgICBtYWlsU2VydmVyID0gc29mdHdhcmVTeXN0ZW0gIk1haWwgU2VydmVyIiB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBbiBTTVRQIGNhcGFibGUgbWFpbCBzZXJ2ZXIiCiAgICAgICAgICAgIHRhZ3MgIkV4dGVybmFsIFNvZnR3YXJlIgoKICAgICAgICAgICAgZW1haWxDb21wb25lbnQgLT4gdGhpcyAic2VuZCBlbWFpbHMgdXNpbmciICJTTVRQIgogICAgICAgIH0KCiAgICAgICAgIyBQZW9wbGUKICAgICAgICB1c2VyID0gcGVyc29uICJVc2VyIiB7CiAgICAgICAgICAgIGRlc2NyaXB0aW9uICJBIHJlZ2lzdGVyZWQgdXNlciBvZiB0aGUgc3lzdGVtLiBVc2VycyBjYW4gcmVnaXN0ZXIgUElzIChwcm9wZXJ0eSBpdGVtcyksIHN0b3JlIFBJcywgaGFuZCBvdmVyIFBJcywgcmVxdWVzdCBQSXMsIGV0Yy4iCiAgICAgICAgICAgIHRoaXMgLT4gc3RvcmVNYW4gInVzZXMiCiAgICAgICAgICAgIHRoaXMgLT4gd2ViQXBwbGljYXRpb24gIm5hdmlnYXRlIHdlYiBicm93c2VyIHRvIiAiSFRUUFMiCiAgICAgICAgICAgIHRoaXMgLT4gc2luZ2xlUGFnZUFwcGxpY2F0aW9uICJpbnRlcmFjdHMgd2l0aCB1c2VyIGludGVyZmFjZSIKICAgICAgICAgICAgdGhpcyAtPiBtb2JpbGVBcHBsaWNhdGlvbiAiaW50ZXJhY3RzIHdpdGggdXNlciBpbnRlcmZhY2UiCiAgICAgICAgICAgIHRoaXMgLT4ga2V5Y2xvYWsgInByb3ZpZGVzIGF1dGhlbnRpY2F0aW9uIGNyZWRlbnRpYWxzIHRvIiAiT0F1dGgvSFRUUFMiIHsKICAgICAgICAgICAgICAgIHBlcnNwZWN0aXZlcyB7CiAgICAgICAgICAgICAgICAgICAgU2VjdXJpdHkgIkNvbm5lY3Rpb24gaXMgc2VjdXJlZCB1c2luZyBIVFRQUy4iCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgc3lzdGVtQWRtaW5pc3RyYXRvciA9IHBlcnNvbiAiU3lzdGVtIEFkbWluaXN0cmF0b3IiIHsKICAgICAgICAgICAgZGVzY3JpcHRpb24gIk1hbmFnZXMgdXNlcnMgYW5kIG90aGVyIGNvbmZpZ3VyYXRpb25zIG9mIHRoZSBzeXN0ZW0uIgogICAgICAgICAgICB0aGlzIC0+IGtleWNsb2FrICJtYW5hZ2VzIHVzZXJzIGFuZCBjb25maWd1cmF0aW9ucyBpbiIKICAgICAgICB9CgogICAgICAgICMgRGVwbG95bWVudAogICAgICAgIHByb2R1Y3Rpb24gPSBkZXBsb3ltZW50RW52aXJvbm1lbnQgIlByb2R1Y3Rpb24gRW52aXJvbm1lbnQiIHsKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgImh1Yi12aXJ0dWFsLW5ldHdvcmsiIHsKICAgICAgICAgICAgICAgIHRhZ3MgIk1pY3Jvc29mdCBBenVyZSAtIFZpcnR1YWwgTmV0d29ya3MiCgogICAgICAgICAgICAgICAgZmlyZXdhbGwgPSBpbmZyYXN0cnVjdHVyZU5vZGUgIkNvcnAgRmlyZXdhbGwiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzICJNaWNyb3NvZnQgQXp1cmUgLSBGaXJld2FsbHMiCiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIlNlY3VyZSBuZXR3b3JrIGFuZCBwcmV2ZW50IGlsbGVnYWwgaW5jb21pbmcgdHJhZmZpYyIKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBnYXRld2F5ID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJDb3JwIGFwcGxpY2F0aW9uIGdhdGV3YXkiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzICJNaWNyb3NvZnQgQXp1cmUgLSBBcHBsaWNhdGlvbiBHYXRld2F5cyIKICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiUm91dGUgaW5jb21pbmcgcmVxdWVzdHMgdG8gY29ycmVjdCBlbnZpcm9ubWVudCIKCiAgICAgICAgICAgICAgICAgICAgZmlyZXdhbGwgLT4gZ2F0ZXdheSAiYWxsb3cgcmVxdWVzdHMgdG8iICJIVFRQUyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgInNwb2tlLXZpcnR1YWwtbmV0d29yayIgewogICAgICAgICAgICAgICAgdGFncyAiTWljcm9zb2Z0IEF6dXJlIC0gVmlydHVhbCBOZXR3b3JrcyIKCiAgICAgICAgICAgICAgICBhenVyZVNwaW5nQXBwcyA9IGRlcGxveW1lbnROb2RlICJBenVyZSBTcHJpbmcgQXBwcyIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIk1pY3Jvc29mdCBBenVyZSAtIEF6dXJlIFNwcmluZyBBcHBzIgoKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiU2VydmljZSBSdW50aW1lIFN1Ym5ldCIgewogICAgICAgICAgICAgICAgICAgICAgICBpbmZyYXN0cnVjdHVyZU5vZGUgIkF6dXJlIExvYWQgQmFsYW5jZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIk1pY3Jvc29mdCBBenVyZSAtIExvYWQgQmFsYW5jZXJzIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkxvYWQgYmFsYW5jZSBpbmNvbWluZyByZXF1ZXN0cyBvdmVyIGNvbnRhaW5lciBpbnN0YW5jZXMiCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIGluZnJhc3RydWN0dXJlTm9kZSAiQ29uZmlnIFNlcnZlciIgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgdGFncyAiU3ByaW5nIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIk1hbmFnZSBjb25maWd1cmF0aW9uIGRldGFpbHMgZm9yIFNwcmluZyBCb290IGFwcGxpY2F0aW9ucyIKICAgICAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICAgICAgaW5mcmFzdHJ1Y3R1cmVOb2RlICJTZXJ2aWNlIFJlZ2lzdHJ5IiB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJTcHJpbmciCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkZXNjcmlwdGlvbiAiU3ByaW5nIEJvb3QgYXBwbGljYXRpb25zIHJlZ2lzdGVyIHRlbXNlbHZlcyB3aXRoIHRoZSBzZXJ2aWNlIHJlZ2lzdHJ5IGFuZCBvdGhlciBhcHBzIGNhbiBsb29rIHVwIGFwcHMgb24gdGhlIHNlcnZpY2UgcmVnaXN0cnkiCiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJBcHBzIFN1Ym5ldCIgewogICAgICAgICAgICAgICAgICAgICAgICBpbmZyYXN0cnVjdHVyZU5vZGUgIkF6dXJlIExvYWQgQmFsYW5jZXIiIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRhZ3MgIk1pY3Jvc29mdCBBenVyZSAtIExvYWQgQmFsYW5jZXJzIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIkxvYWQgYmFsYW5jZSBpbmNvbWluZyByZXF1ZXN0cyBvdmVyIGNvbnRhaW5lciBpbnN0YW5jZXMiCiAgICAgICAgICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIHdlYkFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIGFwaUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgICAgICBnYXRld2F5IC0+IGF6dXJlU3BpbmdBcHBzICJyb3V0ZSByZXF1ZXN0IHRvIiAiSFRUUFMiCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRhdGEgU2VydmljZXMgU3VibmV0IiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiTWljcm9zb2Z0IEF6dXJlIC0gU3VibmV0IgoKICAgICAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQXp1cmUgUG9zdGdyZVNRTCBEQiIgewogICAgICAgICAgICAgICAgICAgICAgICB0YWdzICJNaWNyb3NvZnQgQXp1cmUgLSBBenVyZSBEYXRhYmFzZSBQb3N0Z3JlU1FMIFNlcnZlciIKCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIGRhdGFiYXNlU2NoZW1hCiAgICAgICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQXp1cmUgVmlydHVhbCBNYWNoaW5lIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiTWljcm9zb2Z0IEF6dXJlIC0gVmlydHVhbCBNYWNoaW5lIgogICAgICAgICAgICAgICAgICAgIGluc3RhbmNlcyAzCgogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIGtleWNsb2FrCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KCiAgICAgICAgICAgIGRlcGxveW1lbnROb2RlICJPbi1wcmVtaXNlcyBuZXR3b3JrIiB7CiAgICAgICAgICAgICAgICB0YWdzICJNaWNyb3NvZnQgQXp1cmUgLSBFeGNoYW5nZSBPbiBQcmVtaXNlcyBBY2Nlc3MiCgogICAgICAgICAgICAgICAgc29mdHdhcmVTeXN0ZW1JbnN0YW5jZSBtYWlsU2VydmVyCiAgICAgICAgICAgICAgICBzb2Z0d2FyZVN5c3RlbUluc3RhbmNlIGFjdGl2ZURpcmVjdG9yeQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQ29uZmx1ZW50IENsb3VkIEVudmlyb25tZW50IiB7CiAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSBrYWZrYQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQ0kvQ0QgUGlwZWxpbmVzIiB7CiAgICAgICAgICAgICAgICBhenVyZURldk9wcyA9IGluZnJhc3RydWN0dXJlTm9kZSAiQXp1cmUgRGV2T3BzIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiTWljcm9zb2Z0IEF6dXJlIC0gQXp1cmUgRGV2T3BzIgogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJNYW5hZ2Ugc291cmNlIGNvZGUgYW5kIHZlcnNpb25pbmcsIGJ1aWxkIGFuZCBkZXBsb3kgc291cmNlIGNvZGUuIgoKICAgICAgICAgICAgICAgICAgICAjIGRldkxhcHRvcCAtPiBhenVyZURldk9wcyAicHVibGlzaCBzb3VyY2UgY29kZSIgIkdpdC9UQ1AiCiAgICAgICAgICAgICAgICAgICAgYXp1cmVEZXZPcHMgLT4gYXp1cmVTcGluZ0FwcHMgImRlcGxveSBEb2NrZXIgY29udGFpbmVycyIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIlNlY3VyaXR5IEluZnJhc3RydWN0dXJlIiB7CiAgICAgICAgICAgICAgICBhenVyZUtleVZhdWx0ID0gaW5mcmFzdHJ1Y3R1cmVOb2RlICJBenVyZSBLZXkgVmF1bHQiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzICJNaWNyb3NvZnQgQXp1cmUgLSBLZXkgVmF1bHRzIgogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJNYW5hZ2VzIGFwcGxpY2F0aW9uIHNlY3JldHMgYW5kIHByb3ZpZGVzIHRoZW0gdG8gYXV0aG9yaXplZCBjbG91ZCBhcHBsaWNhdGlvbnMuIgoKICAgICAgICAgICAgICAgICAgICBhenVyZVNwaW5nQXBwcyAtPiBhenVyZUtleVZhdWx0ICJwdWxsIHNlY3JldHMgZnJvbSIKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQoKICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIk1vbml0b3JpbmcgSW5mcmFzdHJ1Y3R1cmUiIHsKICAgICAgICAgICAgICAgIGF6dXJlTW9uaXRvciA9IGluZnJhc3RydWN0dXJlTm9kZSAiQXp1cmUgTW9uaXRvciIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIk1pY3Jvc29mdCBBenVyZSAtIE1vbml0b3IiCiAgICAgICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gIk1vbml0b3IgY2xvdWQgYXBwbGljYXRpb25zIGFuZCBtYWtlIG1vbml0b3JpbmcgZGF0YSBhdmFpbGFibGUgdmlhIGEgVUkuIgoKICAgICAgICAgICAgICAgICAgICBhenVyZU1vbml0b3IgLT4gYXp1cmVTcGluZ0FwcHMgIm1vbml0b3IgYXBwbGljYXRpb25zIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICBsb2NhbERldmVsb3BtZW50ID0gZGVwbG95bWVudEVudmlyb25tZW50ICJEZXZlbG9wbWVudCBFbnZpcm9ubWVudCIgewogICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiQ0kvQ0QgUGlwZWxpbmVzIiB7CiAgICAgICAgICAgICAgICBhenVyZURldk9wc0RldiA9IGluZnJhc3RydWN0dXJlTm9kZSAiQXp1cmUgRGV2T3BzIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiTWljcm9zb2Z0IEF6dXJlIC0gQXp1cmUgRGV2T3BzIgogICAgICAgICAgICAgICAgICAgIGRlc2NyaXB0aW9uICJNYW5hZ2Ugc291cmNlIGNvZGUgYW5kIHZlcnNpb25pbmcsIGJ1aWxkIGFuZCBkZXBsb3kgc291cmNlIGNvZGUuIgogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CgogICAgICAgICAgICBkZXZMYXB0b3AgPSBkZXBsb3ltZW50Tm9kZSAiRGV2ZWxvcGVyIExhcHRvcCIgewogICAgICAgICAgICAgICAgZGVwbG95bWVudE5vZGUgIkRvY2tlciBDRSAoQ29tbXVuaXR5IEVkaXRpb24pIiB7CiAgICAgICAgICAgICAgICAgICAgdGFncyAiRG9ja2VyIgoKICAgICAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSBrZXljbG9hawogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIGthZmthCiAgICAgICAgICAgICAgICAgICAgc29mdHdhcmVTeXN0ZW1JbnN0YW5jZSBtYWlsU2VydmVyCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiSkRLIDE3IChKYXZhIERldmVsb3BtZW50IEtpdCkiIHsKICAgICAgICAgICAgICAgICAgICB0YWdzICJKYXZhIgoKICAgICAgICAgICAgICAgICAgICBjb250YWluZXJJbnN0YW5jZSBhcGlBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIHdlYkFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBkZXBsb3ltZW50Tm9kZSAiTm9kZS5qcyIgewogICAgICAgICAgICAgICAgICAgIHRhZ3MgIk5vZGUuanMiCgogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbgogICAgICAgICAgICAgICAgICAgIGNvbnRhaW5lckluc3RhbmNlIG1vYmlsZUFwcGxpY2F0aW9uCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgZGV2TGFwdG9wIC0+IGF6dXJlRGV2T3BzRGV2ICJwdWxsIGFuZCBwdXNoIHNvdXJjZSBjb2RlIiAiR2l0IgogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKdmlld3MgewogICAgcHJvcGVydGllcyB7CiAgICAgICAgIm1lcm1haWQudXJsIiAiaHR0cHM6Ly9tZXJtYWlkLmluayIKICAgICAgICAibWVybWFpZC5mb3JtYXQiICJzdmciCiAgICB9CgogICAgc3lzdGVtQ29udGV4dCBzdG9yZU1hbiAiQ29udGV4dCIgewogICAgICAgIGluY2x1ZGUgKiBzeXN0ZW1BZG1pbmlzdHJhdG9yCiAgICB9CgogICAgY29udGFpbmVyIHN0b3JlTWFuICJDb250YWluZXJTdG9yZU1hbiIgewogICAgICAgIGluY2x1ZGUgKgogICAgfQoKICAgIGNvbXBvbmVudCBhcGlBcHBsaWNhdGlvbiAiQ29tcG9uZW50QXBpQXBwbGljYXRpb25fQWxsIiAiQWxsIG9mIHRoZSBjb21wb25lbnRzIGZvciB0aGUgQVBJIEFwcGxpY2F0aW9uIiB7CiAgICAgICAgaW5jbHVkZSAqCiAgICAgICAgZXhjbHVkZSBkYXRhYmFzZVNjaGVtYQogICAgfQoKICAgIGNvbXBvbmVudCBhcGlBcHBsaWNhdGlvbiAiQ29tcG9uZW50QXBpQXBwbGljYXRpb25fUmVnaXN0cmF0aW9uIiAiT25seSB0aGUgUmVnaXN0cmF0aW9uIEFwaSBjb21wb25lbnQgb2YgdGhlIEFQSSBBcHBsaWNhdGlvbiIgewogICAgICAgIGluY2x1ZGUgc2luZ2xlUGFnZUFwcGxpY2F0aW9uIHJlZ2lzdHJhdGlvbkFwaSBkYXRhYmFzZVNjaGVtYSBrYWZrYSBlbWFpbENvbXBvbmVudCBtYWlsU2VydmVyCiAgICAgICAgZXhjbHVkZSByZWxhdGlvbnNoaXAudGFnPT1SZXF1ZXN0CiAgICB9CgogICAgY29tcG9uZW50IGFwaUFwcGxpY2F0aW9uICJDb21wb25lbnRBcGlBcHBsaWNhdGlvbl9SZXF1ZXN0IiAiT25seSB0aGUgUmVxdWVzdCBBcGkgY29tcG9uZW50IG9mIHRoZSBBUEkgQXBwbGljYXRpb24iIHsKICAgICAgICBpbmNsdWRlIHNpbmdsZVBhZ2VBcHBsaWNhdGlvbiByZXF1ZXN0QXBpIGRhdGFiYXNlU2NoZW1hIGthZmthIGVtYWlsQ29tcG9uZW50IG1haWxTZXJ2ZXIKICAgICAgICBleGNsdWRlIHJlbGF0aW9uc2hpcC50YWc9PVJlZ2lzdHJhdGlvbgogICAgfQoKICAgIGRlcGxveW1lbnQgc3RvcmVNYW4gbG9jYWxEZXZlbG9wbWVudCAiRGV2ZWxvcG1lbnRFbnZpcm9ubWVudCIgewogICAgICAgIGluY2x1ZGUgKgogICAgfQoKICAgIGRlcGxveW1lbnQgc3RvcmVNYW4gcHJvZHVjdGlvbiAiUHJvZHVjdGlvbkVudmlyb25tZW50IiB7CiAgICAgICAgaW5jbHVkZSAqCiAgICB9CgogICAgaW1hZ2Ugc3RvcmVNYW4gIkRyYXdpbyIgewogICAgICAgIGltYWdlIGRpYWdyYW1zL0Zsb3djaGFydC5kcmF3aW8ucG5nCiAgICAgICAgdGl0bGUgIkFuIGV4YW1wbGUgRHJhdy5pbyBkaWFncmFtIgogICAgfQoKICAgIGltYWdlIHN0b3JlTWFuICJNZXJtYWlkIiB7CiAgICAgICAgbWVybWFpZCBkaWFncmFtcy9GbG93Y2hhcnQubW1kCiAgICAgICAgdGl0bGUgIkFuIGV4YW1wbGUgTWVybWFpZC5qcyBkaWFncmFtIgogICAgfQoKdGhlbWVzIGRlZmF1bHQgaHR0cHM6Ly9zdGF0aWMuc3RydWN0dXJpenIuY29tL3RoZW1lcy9hbWF6b24td2ViLXNlcnZpY2VzLTIwMjAuMDQuMzAvdGhlbWUuanNvbiBodHRwczovL3N0YXRpYy5zdHJ1Y3R1cml6ci5jb20vdGhlbWVzL21pY3Jvc29mdC1henVyZS0yMDIzLjAxLjI0L3RoZW1lLmpzb24KCnN0eWxlcyB7CiAgICBlbGVtZW50ICJTcHJpbmciIHsKICAgICAgICBzdHJva2UgIiM3N2JjMWYiCiAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICBiYWNrZ3JvdW5kICIjZGRkZGRkIgogICAgICAgIGNvbG9yICIjNzdiYzFmIgogICAgICAgIGljb24gImltYWdlcy9zcHJpbmcucG5nIgogICAgfQogICAgZWxlbWVudCAiRXh0ZXJuYWwgU29mdHdhcmUiIHsKICAgICAgICBzdHJva2UgIiM0ZDRkNGQiCiAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICBiYWNrZ3JvdW5kICIjZGRkZGRkIgogICAgICAgIGNvbG9yICIjNGQ0ZDRkIgogICAgfQogICAgZWxlbWVudCAiS2V5Y2xvYWsiIHsKICAgICAgICBzdHJva2UgIiM0ZDRkNGQiCiAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICBiYWNrZ3JvdW5kICIjZGRkZGRkIgogICAgICAgIGNvbG9yICIjNGQ0ZDRkIgogICAgICAgIGljb24gImltYWdlcy9rZXljbG9hazIucG5nIgogICAgfQogICAgZWxlbWVudCAiQXp1cmUgQWN0aXZlIERpcmVjdG9yeSIgewogICAgICAgIHN0cm9rZSAiIzRkNGQ0ZCIKICAgICAgICBzdHJva2VXaWR0aCAxMAogICAgICAgIGJhY2tncm91bmQgIiNkZGRkZGQiCiAgICAgICAgY29sb3IgIiM0ZDRkNGQiCiAgICAgICAgaWNvbiAiaW1hZ2VzL2F6dXJlLWFjdGl2ZS1kaXJlY3RvcnkucG5nIgogICAgfQogICAgZWxlbWVudCAiQW5ndWxhciIgewogICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgICBzdHJva2UgIiNjMzAwMmYiCiAgICAgICAgYmFja2dyb3VuZCAiI2RkZGRkZCIKICAgICAgICBjb2xvciAiI2MzMDAyZiIKICAgICAgICBpY29uICJpbWFnZXMvYW5ndWxhci5wbmciCiAgICB9CiAgICBlbGVtZW50ICJSZWFjdCBOYXRpdmUiIHsKICAgICAgICBzaGFwZSBNb2JpbGVEZXZpY2VMYW5kc2NhcGUKICAgICAgICBzdHJva2UgIiMwMGQ4ZmYiCiAgICAgICAgYmFja2dyb3VuZCAiI2RkZGRkZCIKICAgICAgICBjb2xvciAiIzAwZDhmZiIKICAgICAgICBpY29uICJpbWFnZXMvcmVhY3RfbmF0aXZlLnBuZyIKICAgIH0KICAgIGVsZW1lbnQgIlBvc3RncmVTUUwiIHsKICAgICAgICBzaGFwZSBDeWxpbmRlcgogICAgICAgIHN0cm9rZSAiIzMzNjg5MiIKICAgICAgICBzdHJva2VXaWR0aCAxMAogICAgICAgIGJhY2tncm91bmQgIiNkZGRkZGQiCiAgICAgICAgY29sb3IgIiMzMzY4OTIiCiAgICAgICAgaWNvbiAiaW1hZ2VzL3Bvc3RncmVzcWwucG5nIgogICAgfQogICAgZWxlbWVudCAiRmx1ZW50ZCIgewogICAgICAgIHN0cm9rZSAiIzAwMDAwMCIKICAgICAgICBzdHJva2VXaWR0aCAxMAogICAgICAgIGJhY2tncm91bmQgIiNkZGRkZGQiCiAgICAgICAgY29sb3IgIiMwMDAwMDAiCiAgICAgICAgaWNvbiAiaW1hZ2VzL2ZsdWVudGQucG5nIgogICAgfQogICAgZWxlbWVudCAiRWxhc3RpY1NlYXJjaCIgewogICAgICAgIHN0cm9rZSAiIzAwMDAwMCIKICAgICAgICBzdHJva2VXaWR0aCAxMAogICAgICAgIGJhY2tncm91bmQgIiNkZGRkZGQiCiAgICAgICAgY29sb3IgIiMwMDAwMDAiCiAgICAgICAgaWNvbiAiaW1hZ2VzL2VsYXN0aWNzZWFyY2gucG5nIgogICAgfQogICAgZWxlbWVudCAiS2liYW5hIiB7CiAgICAgICAgc3Ryb2tlICIjMDAwMDAwIgogICAgICAgIHN0cm9rZVdpZHRoIDEwCiAgICAgICAgYmFja2dyb3VuZCAiI2RkZGRkZCIKICAgICAgICBjb2xvciAiIzAwMDAwMCIKICAgICAgICBpY29uICJpbWFnZXMva2liYW5hLnBuZyIKICAgIH0KICAgIGVsZW1lbnQgIlByb21ldGhldXMiIHsKICAgICAgICBzdHJva2UgIiMwMDAwMDAiCiAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICBiYWNrZ3JvdW5kICIjZGRkZGRkIgogICAgICAgIGNvbG9yICIjMDAwMDAwIgogICAgICAgIGljb24gImltYWdlcy9wcm9tZXRoZXVzLnBuZyIKICAgIH0KICAgIGVsZW1lbnQgIkdyYWZhbmEiIHsKICAgICAgICBzdHJva2UgIiMwMDAwMDAiCiAgICAgICAgc3Ryb2tlV2lkdGggMTAKICAgICAgICBiYWNrZ3JvdW5kICIjZGRkZGRkIgogICAgICAgIGNvbG9yICIjMDAwMDAwIgogICAgICAgIGljb24gImltYWdlcy9ncmFmYW5hLnBuZyIKICAgIH0KICAgIGVsZW1lbnQgIkthZmthIiB7CiAgICAgICAgc3Ryb2tlICIjMDAwMDAwIgogICAgICAgIHN0cm9rZVdpZHRoIDEwCiAgICAgICAgYmFja2dyb3VuZCAiI2RkZGRkZCIKICAgICAgICBjb2xvciAiIzAwMDAwMCIKICAgICAgICBpY29uICJpbWFnZXMva2Fma2EucG5nIgogICAgfQogICAgZWxlbWVudCAiQXp1cmUiIHsKICAgICAgICBzdHJva2UgIiMzYmM3ZjMiCiAgICAgICAgY29sb3IgIiMzYmM3ZjMiCiAgICAgICAgaWNvbiAiaW1hZ2VzL2F6dXJlLnBuZyIKICAgIH0KICAgIGVsZW1lbnQgIkt1YmVybmV0ZXMiIHsKICAgICAgICBzdHJva2UgIiMzMjZkZTYiCiAgICAgICAgY29sb3IgIiMzMjZkZTYiCiAgICAgICAgaWNvbiAiaW1hZ2VzL2t1YmVybmV0ZXMucG5nIgogICAgfQogICAgZWxlbWVudCAiRG9ja2VyIiB7CiAgICAgICAgc3Ryb2tlICIjMDA5MWUyIgogICAgICAgIGNvbG9yICIjMDA5MWUyIgogICAgICAgIGljb24gImltYWdlcy9kb2NrZXIucG5nIgogICAgfQogICAgZWxlbWVudCAiSmF2YSIgewogICAgICAgIHN0cm9rZSAiI2U3NmYwMCIKICAgICAgICBjb2xvciAiI2U3NmYwMCIKICAgICAgICBpY29uICJpbWFnZXMvamF2YS5wbmciCiAgICB9CiAgICBlbGVtZW50ICJOb2RlLmpzIiB7CiAgICAgICAgc3Ryb2tlICIjNjg5ZjYzIgogICAgICAgIGNvbG9yICIjNjg5ZjYzIgogICAgICAgIGljb24gImltYWdlcy9ub2RlLWpzLnBuZyIKICAgIH0KICAgIGVsZW1lbnQgIkdpdExhYiIgewogICAgICAgIHN0cm9rZSAiI2ZjNmQyNiIKICAgICAgICBzdHJva2VXaWR0aCAxMAogICAgICAgIGJhY2tncm91bmQgIiNkZGRkZGQiCiAgICAgICAgY29sb3IgIiNmYzZkMjYiCiAgICAgICAgaWNvbiAiaW1hZ2VzL2dpdGxhYi5wbmciCiAgICB9Cn0KfQoKfQo="
   },
@@ -102,6 +102,105 @@
       } ],
       "location" : "Unspecified",
       "containers" : [ {
+        "id" : "2",
+        "tags" : "Element,Container,Spring",
+        "properties" : {
+          "structurizr.dsl.identifier" : "webapplication"
+        },
+        "name" : "Web Application",
+        "description" : "Delivers static content and the StoreMan single page application.",
+        "relationships" : [ {
+          "id" : "4",
+          "tags" : "Relationship",
+          "sourceId" : "2",
+          "destinationId" : "3",
+          "description" : "delivers to the user's web browser"
+        } ],
+        "group" : "Front End",
+        "technology" : "Spring Boot",
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,React Native",
+        "properties" : {
+          "structurizr.dsl.identifier" : "mobileapplication"
+        },
+        "perspectives" : [ {
+          "name" : "Security",
+          "description" : "The Mobile Application is a confidential OAuth2 and OICD client using the Authentication Code grant type to redirect the user's mobile phone browser to the Keycloak server. The OAuth2 JWT token is saved in the Mobile Application and passed to the API Application with every HTTP call."
+        } ],
+        "name" : "Mobile Application",
+        "description" : "Provides a limited subset of the StoreMan functionality via an Android or iOS mobile device.",
+        "relationships" : [ {
+          "id" : "8",
+          "tags" : "Relationship",
+          "perspectives" : [ {
+            "name" : "Security",
+            "description" : "Connection secured using HTTPS."
+          } ],
+          "sourceId" : "5",
+          "destinationId" : "6",
+          "description" : "makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "17",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "15",
+          "description" : "makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "20",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "18",
+          "description" : "makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "23",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "21",
+          "description" : "makes API calls to",
+          "technology" : "JSON/HTTPS"
+        }, {
+          "id" : "32",
+          "tags" : "Relationship",
+          "perspectives" : [ {
+            "name" : "Security",
+            "description" : "Connection secured using HTTPS. This call is made over the public Internet from the user's mobile phone."
+          } ],
+          "sourceId" : "5",
+          "destinationId" : "30",
+          "description" : "requests OAuth token",
+          "technology" : "HTTPS"
+        } ],
+        "group" : "Front End",
+        "technology" : "React Native",
+        "documentation" : { }
+      }, {
+        "id" : "30",
+        "tags" : "Element,Container,Keycloak",
+        "properties" : {
+          "structurizr.dsl.identifier" : "keycloak"
+        },
+        "perspectives" : [ {
+          "name" : "Security",
+          "description" : "Keycloak is an OAuth2 and OICD compatable Authentication Server and users are managed inside Keycloak."
+        } ],
+        "name" : "Keycloak",
+        "description" : "OAuth2 and OpenId Connect compliant server",
+        "relationships" : [ {
+          "id" : "41",
+          "tags" : "Relationship",
+          "sourceId" : "30",
+          "destinationId" : "40",
+          "description" : "authenticate users using",
+          "technology" : "LDAP"
+        } ],
+        "group" : "3rd party",
+        "documentation" : { }
+      }, {
         "id" : "6",
         "tags" : "Element,Container,Spring",
         "properties" : {
@@ -158,14 +257,14 @@
           "description" : "API to store packaged property items in a storage location.",
           "technology" : "Spring/Java"
         }, {
-          "id" : "13",
-          "tags" : "Element,Component",
+          "id" : "25",
+          "tags" : "Element,Component,Spring",
           "properties" : {
-            "structurizr.dsl.identifier" : "storagelocationapi"
+            "structurizr.dsl.identifier" : "actuatorcomponent"
           },
-          "name" : "Storage Location API",
-          "description" : "API to manage storage locations where property ietms can be stored.",
-          "technology" : "Spring/Java"
+          "name" : "Spring Actuator",
+          "description" : "Expose a management API for Spring Boot application",
+          "technology" : "spring-boot-starter-actuator"
         }, {
           "id" : "18",
           "tags" : "Element,Component",
@@ -200,6 +299,15 @@
           } ],
           "technology" : "Spring/Java"
         }, {
+          "id" : "13",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "storagelocationapi"
+          },
+          "name" : "Storage Location API",
+          "description" : "API to manage storage locations where property ietms can be stored.",
+          "technology" : "Spring/Java"
+        }, {
           "id" : "11",
           "tags" : "Element,Component",
           "properties" : {
@@ -209,14 +317,29 @@
           "description" : "API to store package property items and label packages with a barcode and important textual information.",
           "technology" : "Spring/Java"
         }, {
-          "id" : "25",
-          "tags" : "Element,Component,Spring",
+          "id" : "21",
+          "tags" : "Element,Component",
           "properties" : {
-            "structurizr.dsl.identifier" : "actuatorcomponent"
+            "structurizr.dsl.identifier" : "requestapi"
           },
-          "name" : "Spring Actuator",
-          "description" : "Expose a management API for Spring Boot application",
-          "technology" : "spring-boot-starter-actuator"
+          "name" : "Request API",
+          "description" : "API to request property items for a specific purpose and approval of requests. The API also allows configuration of request reasons.",
+          "relationships" : [ {
+            "id" : "29",
+            "tags" : "Relationship",
+            "sourceId" : "21",
+            "destinationId" : "26",
+            "description" : "stores and retrieves data in",
+            "technology" : "JPA"
+          }, {
+            "id" : "37",
+            "tags" : "Relationship,Request",
+            "sourceId" : "21",
+            "destinationId" : "34",
+            "description" : "publish to send-request-email topic",
+            "technology" : "Avro/tcp"
+          } ],
+          "technology" : "Spring/Java"
         }, {
           "id" : "24",
           "tags" : "Element,Component",
@@ -248,53 +371,7 @@
             "technology" : "SMTP"
           } ],
           "technology" : "Spring/Java"
-        }, {
-          "id" : "21",
-          "tags" : "Element,Component",
-          "properties" : {
-            "structurizr.dsl.identifier" : "requestapi"
-          },
-          "name" : "Request API",
-          "description" : "API to request property items for a specific purpose and approval of requests. The API also allows configuration of request reasons.",
-          "relationships" : [ {
-            "id" : "29",
-            "tags" : "Relationship",
-            "sourceId" : "21",
-            "destinationId" : "26",
-            "description" : "stores and retrieves data in",
-            "technology" : "JPA"
-          }, {
-            "id" : "37",
-            "tags" : "Relationship,Request",
-            "sourceId" : "21",
-            "destinationId" : "34",
-            "description" : "publish to send-request-email topic",
-            "technology" : "Avro/tcp"
-          } ],
-          "technology" : "Spring/Java"
         } ],
-        "documentation" : { }
-      }, {
-        "id" : "30",
-        "tags" : "Element,Container,Keycloak",
-        "properties" : {
-          "structurizr.dsl.identifier" : "keycloak"
-        },
-        "perspectives" : [ {
-          "name" : "Security",
-          "description" : "Keycloak is an OAuth2 and OICD compatable Authentication Server and users are managed inside Keycloak."
-        } ],
-        "name" : "Keycloak",
-        "description" : "OAuth2 and OpenId Connect compliant server",
-        "relationships" : [ {
-          "id" : "41",
-          "tags" : "Relationship",
-          "sourceId" : "30",
-          "destinationId" : "40",
-          "description" : "authenticate users using",
-          "technology" : "LDAP"
-        } ],
-        "group" : "3rd party",
         "documentation" : { }
       }, {
         "id" : "34",
@@ -387,65 +464,6 @@
         "technology" : "Angular",
         "documentation" : { }
       }, {
-        "id" : "5",
-        "tags" : "Element,Container,React Native",
-        "properties" : {
-          "structurizr.dsl.identifier" : "mobileapplication"
-        },
-        "perspectives" : [ {
-          "name" : "Security",
-          "description" : "The Mobile Application is a confidential OAuth2 and OICD client using the Authentication Code grant type to redirect the user's mobile phone browser to the Keycloak server. The OAuth2 JWT token is saved in the Mobile Application and passed to the API Application with every HTTP call."
-        } ],
-        "name" : "Mobile Application",
-        "description" : "Provides a limited subset of the StoreMan functionality via an Android or iOS mobile device.",
-        "relationships" : [ {
-          "id" : "8",
-          "tags" : "Relationship",
-          "perspectives" : [ {
-            "name" : "Security",
-            "description" : "Connection secured using HTTPS."
-          } ],
-          "sourceId" : "5",
-          "destinationId" : "6",
-          "description" : "makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "17",
-          "tags" : "Relationship",
-          "sourceId" : "5",
-          "destinationId" : "15",
-          "description" : "makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "20",
-          "tags" : "Relationship",
-          "sourceId" : "5",
-          "destinationId" : "18",
-          "description" : "makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "23",
-          "tags" : "Relationship",
-          "sourceId" : "5",
-          "destinationId" : "21",
-          "description" : "makes API calls to",
-          "technology" : "JSON/HTTPS"
-        }, {
-          "id" : "32",
-          "tags" : "Relationship",
-          "perspectives" : [ {
-            "name" : "Security",
-            "description" : "Connection secured using HTTPS. This call is made over the public Internet from the user's mobile phone."
-          } ],
-          "sourceId" : "5",
-          "destinationId" : "30",
-          "description" : "requests OAuth token",
-          "technology" : "HTTPS"
-        } ],
-        "group" : "Front End",
-        "technology" : "React Native",
-        "documentation" : { }
-      }, {
         "id" : "26",
         "tags" : "Element,Container,PostgreSQL",
         "properties" : {
@@ -455,24 +473,6 @@
         "description" : "Stores all of the StoreMan data",
         "group" : "Back End",
         "technology" : "PostgreSQL",
-        "documentation" : { }
-      }, {
-        "id" : "2",
-        "tags" : "Element,Container,Spring",
-        "properties" : {
-          "structurizr.dsl.identifier" : "webapplication"
-        },
-        "name" : "Web Application",
-        "description" : "Delivers static content and the StoreMan single page application.",
-        "relationships" : [ {
-          "id" : "4",
-          "tags" : "Relationship",
-          "sourceId" : "2",
-          "destinationId" : "3",
-          "description" : "delivers to the user's web browser"
-        } ],
-        "group" : "Front End",
-        "technology" : "Spring Boot",
         "documentation" : { }
       } ],
       "documentation" : { }
@@ -504,23 +504,6 @@
       "environment" : "Production Environment",
       "instances" : "1",
       "infrastructureNodes" : [ {
-        "id" : "57",
-        "tags" : "Element,Infrastructure Node,Microsoft Azure - Firewalls",
-        "properties" : {
-          "structurizr.dsl.identifier" : "firewall"
-        },
-        "name" : "Corp Firewall",
-        "description" : "Secure network and prevent illegal incoming traffic",
-        "relationships" : [ {
-          "id" : "59",
-          "tags" : "Relationship",
-          "sourceId" : "57",
-          "destinationId" : "58",
-          "description" : "allow requests to",
-          "technology" : "HTTPS"
-        } ],
-        "environment" : "Production Environment"
-      }, {
         "id" : "58",
         "tags" : "Element,Infrastructure Node,Microsoft Azure - Application Gateways",
         "properties" : {
@@ -534,6 +517,23 @@
           "sourceId" : "58",
           "destinationId" : "61",
           "description" : "route request to",
+          "technology" : "HTTPS"
+        } ],
+        "environment" : "Production Environment"
+      }, {
+        "id" : "57",
+        "tags" : "Element,Infrastructure Node,Microsoft Azure - Firewalls",
+        "properties" : {
+          "structurizr.dsl.identifier" : "firewall"
+        },
+        "name" : "Corp Firewall",
+        "description" : "Secure network and prevent illegal incoming traffic",
+        "relationships" : [ {
+          "id" : "59",
+          "tags" : "Relationship",
+          "sourceId" : "57",
+          "destinationId" : "58",
+          "description" : "allow requests to",
           "technology" : "HTTPS"
         } ],
         "environment" : "Production Environment"
@@ -566,6 +566,28 @@
           } ]
         } ]
       }, {
+        "id" : "75",
+        "tags" : "Element,Deployment Node,Microsoft Azure - Virtual Machine",
+        "name" : "Azure Virtual Machine",
+        "environment" : "Production Environment",
+        "instances" : "3",
+        "containerInstances" : [ {
+          "id" : "76",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "82",
+            "sourceId" : "76",
+            "destinationId" : "81",
+            "description" : "authenticate users using",
+            "technology" : "LDAP",
+            "linkedRelationshipId" : "41"
+          } ],
+          "environment" : "Production Environment",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "30"
+        } ]
+      }, {
         "id" : "61",
         "tags" : "Element,Deployment Node,Microsoft Azure - Azure Spring Apps",
         "properties" : {
@@ -582,31 +604,6 @@
         "environment" : "Production Environment",
         "instances" : "1",
         "children" : [ {
-          "id" : "62",
-          "tags" : "Element,Deployment Node",
-          "name" : "Service Runtime Subnet",
-          "environment" : "Production Environment",
-          "instances" : "1",
-          "infrastructureNodes" : [ {
-            "id" : "64",
-            "tags" : "Element,Infrastructure Node,Spring",
-            "name" : "Config Server",
-            "description" : "Manage configuration details for Spring Boot applications",
-            "environment" : "Production Environment"
-          }, {
-            "id" : "65",
-            "tags" : "Element,Infrastructure Node,Spring",
-            "name" : "Service Registry",
-            "description" : "Spring Boot applications register temselves with the service registry and other apps can look up apps on the service registry",
-            "environment" : "Production Environment"
-          }, {
-            "id" : "63",
-            "tags" : "Element,Infrastructure Node,Microsoft Azure - Load Balancers",
-            "name" : "Azure Load Balancer",
-            "description" : "Load balance incoming requests over container instances",
-            "environment" : "Production Environment"
-          } ]
-        }, {
           "id" : "66",
           "tags" : "Element,Deployment Node",
           "name" : "Apps Subnet",
@@ -620,6 +617,13 @@
             "environment" : "Production Environment"
           } ],
           "containerInstances" : [ {
+            "id" : "68",
+            "tags" : "Container Instance",
+            "environment" : "Production Environment",
+            "deploymentGroups" : [ "Default" ],
+            "instanceId" : 1,
+            "containerId" : "2"
+          }, {
             "id" : "69",
             "tags" : "Container Instance",
             "relationships" : [ {
@@ -655,36 +659,32 @@
             "deploymentGroups" : [ "Default" ],
             "instanceId" : 1,
             "containerId" : "6"
-          }, {
-            "id" : "68",
-            "tags" : "Container Instance",
-            "environment" : "Production Environment",
-            "deploymentGroups" : [ "Default" ],
-            "instanceId" : 1,
-            "containerId" : "2"
           } ]
-        } ]
-      }, {
-        "id" : "75",
-        "tags" : "Element,Deployment Node,Microsoft Azure - Virtual Machine",
-        "name" : "Azure Virtual Machine",
-        "environment" : "Production Environment",
-        "instances" : "3",
-        "containerInstances" : [ {
-          "id" : "76",
-          "tags" : "Container Instance",
-          "relationships" : [ {
-            "id" : "82",
-            "sourceId" : "76",
-            "destinationId" : "81",
-            "description" : "authenticate users using",
-            "technology" : "LDAP",
-            "linkedRelationshipId" : "41"
-          } ],
+        }, {
+          "id" : "62",
+          "tags" : "Element,Deployment Node",
+          "name" : "Service Runtime Subnet",
           "environment" : "Production Environment",
-          "deploymentGroups" : [ "Default" ],
-          "instanceId" : 1,
-          "containerId" : "30"
+          "instances" : "1",
+          "infrastructureNodes" : [ {
+            "id" : "65",
+            "tags" : "Element,Infrastructure Node,Spring",
+            "name" : "Service Registry",
+            "description" : "Spring Boot applications register temselves with the service registry and other apps can look up apps on the service registry",
+            "environment" : "Production Environment"
+          }, {
+            "id" : "63",
+            "tags" : "Element,Infrastructure Node,Microsoft Azure - Load Balancers",
+            "name" : "Azure Load Balancer",
+            "description" : "Load balance incoming requests over container instances",
+            "environment" : "Production Environment"
+          }, {
+            "id" : "64",
+            "tags" : "Element,Infrastructure Node,Spring",
+            "name" : "Config Server",
+            "description" : "Manage configuration details for Spring Boot applications",
+            "environment" : "Production Environment"
+          } ]
         } ]
       } ]
     }, {
@@ -694,19 +694,19 @@
       "environment" : "Production Environment",
       "instances" : "1",
       "softwareSystemInstances" : [ {
-        "id" : "79",
-        "tags" : "Software System Instance",
-        "environment" : "Production Environment",
-        "deploymentGroups" : [ "Default" ],
-        "instanceId" : 1,
-        "softwareSystemId" : "43"
-      }, {
         "id" : "81",
         "tags" : "Software System Instance",
         "environment" : "Production Environment",
         "deploymentGroups" : [ "Default" ],
         "instanceId" : 1,
         "softwareSystemId" : "40"
+      }, {
+        "id" : "79",
+        "tags" : "Software System Instance",
+        "environment" : "Production Environment",
+        "deploymentGroups" : [ "Default" ],
+        "instanceId" : 1,
+        "softwareSystemId" : "43"
       } ]
     }, {
       "id" : "83",
@@ -818,56 +818,6 @@
       "environment" : "Development Environment",
       "instances" : "1",
       "children" : [ {
-        "id" : "102",
-        "tags" : "Element,Deployment Node,Java",
-        "name" : "JDK 17 (Java Development Kit)",
-        "environment" : "Development Environment",
-        "instances" : "1",
-        "containerInstances" : [ {
-          "id" : "103",
-          "tags" : "Container Instance",
-          "relationships" : [ {
-            "id" : "104",
-            "sourceId" : "103",
-            "destinationId" : "99",
-            "description" : "verifies OAuth token",
-            "technology" : "HTTPS",
-            "linkedRelationshipId" : "33"
-          }, {
-            "id" : "105",
-            "sourceId" : "103",
-            "destinationId" : "100",
-            "description" : "publish and subscribe to topics on",
-            "technology" : "Avro/tcp",
-            "linkedRelationshipId" : "35"
-          }, {
-            "id" : "106",
-            "sourceId" : "103",
-            "destinationId" : "101",
-            "description" : "send emails using",
-            "technology" : "SMTP",
-            "linkedRelationshipId" : "45"
-          } ],
-          "environment" : "Development Environment",
-          "deploymentGroups" : [ "Default" ],
-          "instanceId" : 1,
-          "containerId" : "6"
-        }, {
-          "id" : "107",
-          "tags" : "Container Instance",
-          "relationships" : [ {
-            "id" : "112",
-            "sourceId" : "107",
-            "destinationId" : "109",
-            "description" : "delivers to the user's web browser",
-            "linkedRelationshipId" : "4"
-          } ],
-          "environment" : "Development Environment",
-          "deploymentGroups" : [ "Default" ],
-          "instanceId" : 1,
-          "containerId" : "2"
-        } ]
-      }, {
         "id" : "108",
         "tags" : "Element,Deployment Node,Node.js",
         "name" : "Node.js",
@@ -884,7 +834,7 @@
             "technology" : "HTTPS",
             "linkedRelationshipId" : "31"
           }, {
-            "id" : "111",
+            "id" : "112",
             "sourceId" : "109",
             "destinationId" : "103",
             "description" : "makes API calls to",
@@ -917,6 +867,56 @@
           "deploymentGroups" : [ "Default" ],
           "instanceId" : 1,
           "containerId" : "5"
+        } ]
+      }, {
+        "id" : "102",
+        "tags" : "Element,Deployment Node,Java",
+        "name" : "JDK 17 (Java Development Kit)",
+        "environment" : "Development Environment",
+        "instances" : "1",
+        "containerInstances" : [ {
+          "id" : "107",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "111",
+            "sourceId" : "107",
+            "destinationId" : "109",
+            "description" : "delivers to the user's web browser",
+            "linkedRelationshipId" : "4"
+          } ],
+          "environment" : "Development Environment",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "2"
+        }, {
+          "id" : "103",
+          "tags" : "Container Instance",
+          "relationships" : [ {
+            "id" : "104",
+            "sourceId" : "103",
+            "destinationId" : "99",
+            "description" : "verifies OAuth token",
+            "technology" : "HTTPS",
+            "linkedRelationshipId" : "33"
+          }, {
+            "id" : "105",
+            "sourceId" : "103",
+            "destinationId" : "101",
+            "description" : "send emails using",
+            "technology" : "SMTP",
+            "linkedRelationshipId" : "45"
+          }, {
+            "id" : "106",
+            "sourceId" : "103",
+            "destinationId" : "100",
+            "description" : "publish and subscribe to topics on",
+            "technology" : "Avro/tcp",
+            "linkedRelationshipId" : "35"
+          } ],
+          "environment" : "Development Environment",
+          "deploymentGroups" : [ "Default" ],
+          "instanceId" : 1,
+          "containerId" : "6"
         } ]
       }, {
         "id" : "98",
@@ -1065,16 +1065,6 @@
         "height" : 1748
       },
       "enterpriseBoundaryVisible" : true,
-      "relationships" : [ {
-        "id" : "42"
-      }, {
-        "id" : "55"
-      }, {
-        "id" : "46",
-        "position" : 35
-      }, {
-        "id" : "48"
-      } ],
       "elements" : [ {
         "id" : "1",
         "x" : 925,
@@ -1095,6 +1085,16 @@
         "id" : "43",
         "x" : 927,
         "y" : 1040
+      } ],
+      "relationships" : [ {
+        "id" : "42"
+      }, {
+        "id" : "55"
+      }, {
+        "id" : "46",
+        "position" : 35
+      }, {
+        "id" : "48"
       } ]
     } ],
     "containerViews" : [ {
@@ -1107,50 +1107,6 @@
         "height" : 2480
       },
       "externalSoftwareSystemBoundariesVisible" : true,
-      "relationships" : [ {
-        "id" : "50",
-        "position" : 40
-      }, {
-        "id" : "51"
-      }, {
-        "id" : "52"
-      }, {
-        "id" : "41"
-      }, {
-        "id" : "54"
-      }, {
-        "id" : "32"
-      }, {
-        "id" : "31",
-        "vertices" : [ {
-          "x" : 1205,
-          "y" : 1070
-        }, {
-          "x" : 2375,
-          "y" : 1070
-        } ],
-        "position" : 35
-      }, {
-        "id" : "27",
-        "position" : 40
-      }, {
-        "id" : "4"
-      }, {
-        "id" : "35"
-      }, {
-        "id" : "33",
-        "position" : 35
-      }, {
-        "id" : "7",
-        "position" : 65
-      }, {
-        "id" : "8",
-        "position" : 65
-      }, {
-        "id" : "45"
-      }, {
-        "id" : "49"
-      } ],
       "elements" : [ {
         "id" : "34",
         "x" : 2150,
@@ -1195,6 +1151,50 @@
         "id" : "43",
         "x" : 2895,
         "y" : 1795
+      } ],
+      "relationships" : [ {
+        "id" : "50",
+        "position" : 40
+      }, {
+        "id" : "51"
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "54"
+      }, {
+        "id" : "32"
+      }, {
+        "id" : "31",
+        "vertices" : [ {
+          "x" : 1205,
+          "y" : 1070
+        }, {
+          "x" : 2375,
+          "y" : 1070
+        } ],
+        "position" : 35
+      }, {
+        "id" : "27",
+        "position" : 40
+      }, {
+        "id" : "4"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "33",
+        "position" : 35
+      }, {
+        "id" : "7",
+        "position" : 65
+      }, {
+        "id" : "8",
+        "position" : 65
+      }, {
+        "id" : "45"
+      }, {
+        "id" : "49"
       } ]
     } ],
     "componentViews" : [ {
@@ -1208,17 +1208,6 @@
       },
       "containerId" : "6",
       "externalContainerBoundariesVisible" : true,
-      "relationships" : [ {
-        "id" : "28"
-      }, {
-        "id" : "36"
-      }, {
-        "id" : "44"
-      }, {
-        "id" : "10"
-      }, {
-        "id" : "38"
-      } ],
       "elements" : [ {
         "id" : "34",
         "x" : 1795,
@@ -1243,53 +1232,17 @@
         "id" : "43",
         "x" : 155,
         "y" : 1080
-      } ]
-    }, {
-      "key" : "ComponentApiApplication_Request",
-      "order" : 5,
-      "description" : "Only the Request Api component of the API Application",
-      "paperSize" : "A5_Landscape",
-      "dimensions" : {
-        "width" : 2480,
-        "height" : 1748
-      },
-      "containerId" : "6",
-      "externalContainerBoundariesVisible" : true,
+      } ],
       "relationships" : [ {
-        "id" : "29"
+        "id" : "28"
       }, {
-        "id" : "37"
-      }, {
-        "id" : "22"
+        "id" : "36"
       }, {
         "id" : "44"
       }, {
-        "id" : "39"
-      } ],
-      "elements" : [ {
-        "id" : "34",
-        "x" : 1835,
-        "y" : 565
+        "id" : "10"
       }, {
-        "id" : "24",
-        "x" : 1035,
-        "y" : 1080
-      }, {
-        "id" : "3",
-        "x" : 1035,
-        "y" : 45
-      }, {
-        "id" : "26",
-        "x" : 155,
-        "y" : 565
-      }, {
-        "id" : "21",
-        "x" : 1035,
-        "y" : 565
-      }, {
-        "id" : "43",
-        "x" : 155,
-        "y" : 1080
+        "id" : "38"
       } ]
     }, {
       "key" : "ComponentApiApplication_All",
@@ -1302,6 +1255,55 @@
       },
       "containerId" : "6",
       "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 755,
+        "y" : 570
+      }, {
+        "id" : "34",
+        "x" : 2880,
+        "y" : 1125
+      }, {
+        "id" : "13",
+        "x" : 1305,
+        "y" : 570
+      }, {
+        "id" : "24",
+        "x" : 2055,
+        "y" : 1125
+      }, {
+        "id" : "25",
+        "x" : 2055,
+        "y" : 570
+      }, {
+        "id" : "15",
+        "x" : 215,
+        "y" : 1125
+      }, {
+        "id" : "18",
+        "x" : 755,
+        "y" : 1125
+      }, {
+        "id" : "3",
+        "x" : 235,
+        "y" : 70
+      }, {
+        "id" : "5",
+        "x" : 750,
+        "y" : 1685
+      }, {
+        "id" : "9",
+        "x" : 215,
+        "y" : 570
+      }, {
+        "id" : "21",
+        "x" : 1305,
+        "y" : 1125
+      }, {
+        "id" : "43",
+        "x" : 2055,
+        "y" : 1685
+      } ],
       "relationships" : [ {
         "id" : "20"
       }, {
@@ -1328,13 +1330,6 @@
           "y" : 1040
         } ]
       }, {
-        "id" : "14",
-        "vertices" : [ {
-          "x" : 1515,
-          "y" : 315
-        } ],
-        "position" : 25
-      }, {
         "id" : "36",
         "vertices" : [ {
           "x" : 435,
@@ -1343,6 +1338,13 @@
           "x" : 3110,
           "y" : 945
         } ]
+      }, {
+        "id" : "14",
+        "vertices" : [ {
+          "x" : 1515,
+          "y" : 315
+        } ],
+        "position" : 25
       }, {
         "id" : "12",
         "vertices" : [ {
@@ -1385,147 +1387,56 @@
           "y" : 1095
         } ],
         "position" : 5
-      } ],
+      } ]
+    }, {
+      "key" : "ComponentApiApplication_Request",
+      "order" : 5,
+      "description" : "Only the Request Api component of the API Application",
+      "paperSize" : "A5_Landscape",
+      "dimensions" : {
+        "width" : 2480,
+        "height" : 1748
+      },
+      "containerId" : "6",
+      "externalContainerBoundariesVisible" : true,
       "elements" : [ {
-        "id" : "11",
-        "x" : 755,
-        "y" : 570
-      }, {
         "id" : "34",
-        "x" : 2880,
-        "y" : 1125
-      }, {
-        "id" : "13",
-        "x" : 1305,
-        "y" : 570
+        "x" : 1835,
+        "y" : 565
       }, {
         "id" : "24",
-        "x" : 2055,
-        "y" : 1125
-      }, {
-        "id" : "25",
-        "x" : 2055,
-        "y" : 570
-      }, {
-        "id" : "15",
-        "x" : 215,
-        "y" : 1125
-      }, {
-        "id" : "18",
-        "x" : 755,
-        "y" : 1125
+        "x" : 1035,
+        "y" : 1080
       }, {
         "id" : "3",
-        "x" : 235,
-        "y" : 70
+        "x" : 1035,
+        "y" : 45
       }, {
-        "id" : "5",
-        "x" : 750,
-        "y" : 1685
-      }, {
-        "id" : "9",
-        "x" : 215,
-        "y" : 570
-      }, {
-        "id" : "43",
-        "x" : 2055,
-        "y" : 1685
+        "id" : "26",
+        "x" : 155,
+        "y" : 565
       }, {
         "id" : "21",
-        "x" : 1305,
-        "y" : 1125
+        "x" : 1035,
+        "y" : 565
+      }, {
+        "id" : "43",
+        "x" : 155,
+        "y" : 1080
+      } ],
+      "relationships" : [ {
+        "id" : "29"
+      }, {
+        "id" : "37"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "44"
+      }, {
+        "id" : "39"
       } ]
     } ],
     "deploymentViews" : [ {
-      "key" : "DevelopmentEnvironment",
-      "order" : 6,
-      "softwareSystemId" : "1",
-      "paperSize" : "A4_Landscape",
-      "dimensions" : {
-        "width" : 3508,
-        "height" : 2480
-      },
-      "environment" : "Development Environment",
-      "relationships" : [ {
-        "id" : "111"
-      }, {
-        "id" : "110",
-        "vertices" : [ {
-          "x" : 400,
-          "y" : 80
-        }, {
-          "x" : 1975,
-          "y" : 85
-        } ]
-      }, {
-        "id" : "112"
-      }, {
-        "id" : "115"
-      }, {
-        "id" : "104"
-      }, {
-        "id" : "114"
-      }, {
-        "id" : "106"
-      }, {
-        "id" : "105"
-      }, {
-        "id" : "116"
-      } ],
-      "elements" : [ {
-        "id" : "99",
-        "x" : 1745,
-        "y" : 250
-      }, {
-        "id" : "100",
-        "x" : 1745,
-        "y" : 647
-      }, {
-        "id" : "101",
-        "x" : 1745,
-        "y" : 1045
-      }, {
-        "id" : "102",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "113",
-        "x" : 875,
-        "y" : 250
-      }, {
-        "id" : "103",
-        "x" : 875,
-        "y" : 1045
-      }, {
-        "id" : "107",
-        "x" : 180,
-        "y" : 1045
-      }, {
-        "id" : "108",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "109",
-        "x" : 180,
-        "y" : 250
-      }, {
-        "id" : "95",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "96",
-        "x" : 2645,
-        "y" : 690
-      }, {
-        "id" : "97",
-        "x" : 0,
-        "y" : 0
-      }, {
-        "id" : "98",
-        "x" : 0,
-        "y" : 0
-      } ]
-    }, {
       "key" : "ProductionEnvironment",
       "order" : 7,
       "softwareSystemId" : "1",
@@ -1535,45 +1446,6 @@
         "height" : 2480
       },
       "environment" : "Production Environment",
-      "relationships" : [ {
-        "id" : "70"
-      }, {
-        "id" : "82"
-      }, {
-        "id" : "94",
-        "vertices" : [ {
-          "x" : 1180,
-          "y" : 515
-        } ]
-      }, {
-        "id" : "80",
-        "vertices" : [ {
-          "x" : 1635,
-          "y" : 1745
-        } ]
-      }, {
-        "id" : "91"
-      }, {
-        "id" : "74",
-        "position" : 35
-      }, {
-        "id" : "85",
-        "vertices" : [ {
-          "x" : 3210,
-          "y" : 1345
-        } ]
-      }, {
-        "id" : "77"
-      }, {
-        "id" : "88",
-        "vertices" : [ {
-          "x" : 2540,
-          "y" : 485
-        } ]
-      }, {
-        "id" : "59",
-        "position" : 35
-      } ],
       "elements" : [ {
         "id" : "66",
         "x" : 0,
@@ -1690,6 +1562,134 @@
         "id" : "87",
         "x" : 2315,
         "y" : 75
+      } ],
+      "relationships" : [ {
+        "id" : "70"
+      }, {
+        "id" : "82"
+      }, {
+        "id" : "94",
+        "vertices" : [ {
+          "x" : 1180,
+          "y" : 515
+        } ]
+      }, {
+        "id" : "80",
+        "vertices" : [ {
+          "x" : 1635,
+          "y" : 1745
+        } ]
+      }, {
+        "id" : "91"
+      }, {
+        "id" : "74",
+        "position" : 35
+      }, {
+        "id" : "85",
+        "vertices" : [ {
+          "x" : 3210,
+          "y" : 1345
+        } ]
+      }, {
+        "id" : "77"
+      }, {
+        "id" : "88",
+        "vertices" : [ {
+          "x" : 2540,
+          "y" : 485
+        } ]
+      }, {
+        "id" : "59",
+        "position" : 35
+      } ]
+    }, {
+      "key" : "DevelopmentEnvironment",
+      "order" : 6,
+      "softwareSystemId" : "1",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 3508,
+        "height" : 2480
+      },
+      "environment" : "Development Environment",
+      "elements" : [ {
+        "id" : "99",
+        "x" : 1745,
+        "y" : 250
+      }, {
+        "id" : "100",
+        "x" : 1745,
+        "y" : 647
+      }, {
+        "id" : "101",
+        "x" : 1745,
+        "y" : 1045
+      }, {
+        "id" : "113",
+        "x" : 875,
+        "y" : 250
+      }, {
+        "id" : "102",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "103",
+        "x" : 875,
+        "y" : 1045
+      }, {
+        "id" : "107",
+        "x" : 180,
+        "y" : 1045
+      }, {
+        "id" : "108",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "109",
+        "x" : 180,
+        "y" : 250
+      }, {
+        "id" : "95",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "96",
+        "x" : 2645,
+        "y" : 690
+      }, {
+        "id" : "97",
+        "x" : 0,
+        "y" : 0
+      }, {
+        "id" : "98",
+        "x" : 0,
+        "y" : 0
+      } ],
+      "relationships" : [ {
+        "id" : "111"
+      }, {
+        "id" : "110",
+        "vertices" : [ {
+          "x" : 400,
+          "y" : 80
+        }, {
+          "x" : 1975,
+          "y" : 85
+        } ]
+      }, {
+        "id" : "112"
+      }, {
+        "id" : "115"
+      }, {
+        "id" : "104"
+      }, {
+        "id" : "114"
+      }, {
+        "id" : "106"
+      }, {
+        "id" : "105"
+      }, {
+        "id" : "116"
       } ]
     } ],
     "imageViews" : [ {
