@@ -5,5 +5,5 @@ services:
     ports:
       - 9090:8080
     volumes:
-      - ./:/usr/local/structurizr:ro
+      - ./:/usr/local/structurizr
     restart: always
