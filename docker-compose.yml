@@ -1,0 +1,9 @@
+version: "3"
+services:
+  structurizr:
+    image: structurizr/lite:3122
+    ports:
+      - 9090:8080
+    volumes:
+      - ./:/usr/local/structurizr:ro
+    restart: always
